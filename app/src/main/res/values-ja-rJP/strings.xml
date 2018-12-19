@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name" translatable="false">NicoACG</string>
+	<string name="please_input_privacy_protection" translatable="false">オリジナルのパスワードを入力してください</string>
+	<string name="pwd_input_privacy_protection" translatable="false">プライバシーのパスワードを入力してください</string>
+	<string name="pwd_input_again_exit" translatable="false">もう一回で退く</string>
+	<string name="pwd_input_error_msg" translatable="false">あなたはすでに$ $1$Dに負けています%2$d。</string>
+	<string name="del" translatable="false">削除</string>
+	<string name="browse_string" translatable="false">発見する</string>
+	<string name="watch_string" translatable="false">関心を持つ</string>
+	<string name="follow_string" translatable="false">＋注目</string>
+	<string name="mine" translatable="false">私の</string>
+	<string name="collect" translatable="false">コレクション</string>
+	<string name="watch_interest_title_msg" translatable="false">私の趣味</string>
+	<string name="preview_comment_hint">レビューエリアは私が守る...</string>
+	<string name="foot_no_more_msg">もうないよ！～</string>
+	<string name="foot_refresh_pulling_msg">アップロードがもっと多い</string>
+	<string name="foot_refresh_release_msg">リリースすぐにロード</string>
+	<string name="foot_refresh_loading_msg">ロードしている</string>
+	<string name="foot_refresh_refreshing_msg">更新中</string>
+	<string name="foot_refresh_finish_msg">ロード完了</string>
+	<string name="foot_refresh_failed_msg">失敗をロードする</string>
+	<string name="home_first_page_toast_msg" translatable="false">前がありませんから、これから滑りましょう</string>
+	<string name="home_work_removed_msg" translatable="false">この作品はもう！</string>
+	<string name="send_msg">送信する</string>
+	<string name="account_disable_1">アカウントの禁言中、返信できません！</string>
+	<string name="account_disable_2">アカウントの停止中で、作品を見ることができません！</string>
+	<string name="reply_title_msg">% 20 %の返事</string>
+	<string name="reply_list_head_title_msg">すべての返事</string>
+	<string name="favorited_btn_msg">コレクション</string>
+	<string name="favorit_btn_msg" translatable="false">コレクション</string>
+	<string name="reply_btn_msg" translatable="false">コメント</string>
+	<string name="forward_btn_msg" translatable="false">分かち合う</string>
+	<string name="work_details_waring_msg" translatable="false">当サイトの内容はいずれもユーザーによって共有されており、不適切な内容があれば連絡してください。</string>
+	<string name="dialog_freeze_coin_title_msg" translatable="false">VIP毎日50回無料の特権を使い切る</string>
+	<string name="dialog_freeze_coin_txt_msg" translatable="false">Aドルが凍結された</string>
+	<string name="dialog_freeze_coin_unused_msg" translatable="false">Aドルが足りないのですぐにチャージする</string>
+	<string name="dialog_freeze_coin_unused_msg2" translatable="false">A円が足りず、2倍のA円になった</string>
+	<string name="dialog_open_vip_msg" translatable="false">VIP無料観覧</string>
+	<string name="dialog_open_vip_msg2" translatable="false">VIP立受7.8割引の特権</string>
+	<string name="dialog_open_vip_msg3" translatable="false">あと10日以上は無料でご覧になります</string>
+	<string name="dialog_be_free_msg" translatable="false">あと15日は無料で見て、注意してください</string>
+	<string name="dialog_can_not_buy_msg" translatable="false">Aドルで購入できません</string>
+	<string name="home_preview_works_count_msg" translatable="false">画像は%1$d/ビデオ%2$d</string>
+	<string name="home_preview_works_count_msg2" translatable="false">写真%1$d</string>
+	<string name="preview_login_msg" translatable="false">ログイン</string>
+	<string name="preview_watch_msg" translatable="false">すぐに見る</string>
+	<string name="comment_count_msg" translatable="false">コメント%1$d</string>
+	<string name="comment_reply_count_msg" translatable="false">%1$dの返事</string>
+	<string name="comment_no_reply_msg" translatable="false">返事をする</string>
+	<string name="comment_reply_hint_msg" translatable="false">返信バイアス&#160;%1$s:</string>
+	<string name="comment_dirver_msg" translatable="false">運転手</string>
+	<string name="comment_passenger_msg" translatable="false">乗客</string>
+	<string name="work_details_comment_nothing_msg" translatable="false">評論エリアは誰も守っていない</string>
+	<string name="work_details_toast_msg" translatable="false">VIP特権を使って無料で観覧しています</string>
+	<string name="preview_like_msg" translatable="false">称賛する</string>
+	<string name="work_details_title_msg" translatable="false">作品の詳細</string>
+	<string name="preview_title_msg" translatable="false">作品のプレビュー</string>
+	<string name="buy_work_dialog_title_msg" translatable="false">この作品を購入する</string>
+	<string name="buy_work_dialog_balance_msg" translatable="false">残高：1 $</string>
+	<string name="buy_work_dialog_prompt_msg" translatable="false">QQ群/マイクロ信群アスペクト&#160;無料A貨幣アセンブリ&#160;アセンブリ&#160;</string>
+	<string name="pic_hdv_toast_msg" translatable="false">画像が大きいので、お待ちください</string>
+	<string name="buy_of_coin_dialog_title_msg" translatable="false">VIP毎日50回無料の特権を使い切る</string>
+	<string name="buy_of_coin_dialog_balance_msg" translatable="false">A円残高：%1$s</string>
+	<string name="buy_of_coin_dialog_btn_msg" translatable="false">%1$sAドルを使用して購入する</string>
+	<string name="banned_title_msg" translatable="false">この作品を購入する</string>
+	<string name="banned_waring_msg" translatable="false">このアカウントは封鎖されます。</string>
+	<string name="viewer_msg">ハイビジョンモード</string>
+	<string name="video_player_end_msg">次の</string>
+	<string name="video_player_re_play_msg" translatable="false">再放送</string>
+	<string name="video_player_first_msg">第1回放送</string>
+	<string name="video_buffing_msg">バッファ...</string>
+	<string name="search_msg">検索</string>
+	<string name="cancel_msg">取り消す</string>
+	<string name="confirm_msg">確定する</string>
+	<string name="search_hint_msg">趣味、作品、na号、ユーザーを検索</string>
+	<string name="search_hot_key_msg">人気の検索</string>
+	<string name="search_history_msg">歴史を検索する</string>
+	<string name="search_clear_msg">空を清める</string>
+	<string name="search_of_keyword_msg">%1$sの関連内容を検索</string>
+	<string name="search_result_all_msg" translatable="false">総合</string>
+	<string name="search_result_hobby_msg">趣味</string>
+	<string name="search_result_users_msg">ユーザー</string>
+	<string name="search_result_with_hobby_msg">興味を持つ</string>
+	<string name="search_result_with_users_msg">関係者</string>
+	<string name="search_result_with_works_msg">関連作品</string>
+	<string name="more_msg">もっと</string>
+	<string name="clear_history_title_msg">清空の検索の歴史を確定しますか？</string>
+	<string name="clear_history_waring_msg">クリアした後に回復できませんか？</string>
+	<string name="not_found_search_string_msg">内容はありませんよ！にキーワードを変えてからやってみましょうか？</string>
+	<string name="browse_recommend_msg">達人推薦</string>
+	<string name="browse_hot_msg">人気がある</string>
+	<string name="browse_follow_msg">＋注目</string>
+	<string name="browse_followed_msg">注目している</string>
+	<string name="dialog_unfollow_msg">注目を取り消す</string>
+	<string name="dialog_unfollow_confirm_msg">この人に注目しないことを確定しますか？</string>
+	<string name="share_msg">分かち合う</string>
+	<string name="share_title_right_msg">押し広める現金</string>
+	<string name="share_wechat_msg">微細な手紙</string>
+	<string name="share_friend_msg">友人の輪</string>
+	<string name="share_qq_msg">QQ</string>
+	<string name="share_qzone_msg">QQ空間</string>
+	<string name="share_weibo_msg">微博</string>
+	<string name="share_line_msg">LINE</string>
+	<string name="share_twwiter_msg">Toniter</string>
+	<string name="share_facebook_msg">Facebook</string>
+	<string name="share_messenger_msg">メッセージ</string>
+	<string name="share_whatsapp_msg">Whatspp</string>
+	<string name="share_link_msg">リンクをコピー</string>
+	<string name="share_more_msg">もっと</string>
+	<string name="loading_msg">必死にロード中...</string>
+	<string name="not_login_title_msg">権限が足りない</string>
+	<string name="not_login_waring_msg">観光客はハイビジョンモードを使用できませんので、先に登録してください</string>
+	<string name="not_login_btn_msg1">登録/登録</string>
+	<string name="not_login_open_vip_waring_msg">VIPを開通した後にハイビジョンモードを使用することができます</string>
+	<string name="not_login_open_vip_btn_msg">VIPを開通してその特権を獲得する</string>
+	<string name="not_login_btn_msg2">あとでまた</string>
+	<string name="play_video_3G_msg">流量を使用している</string>
+	<string name="back_toast">もう一回終了する</string>
+	<string name="copy_na">na号はもうコピーしました</string>
+	<string name="new_version_title">新しいバージョンを発見</string>
+	<string name="new_version_update_btn">すぐに体験する</string>
+	<string name="new_version_cancel_btn">残忍に断る</string>
+	<string name="load_error_msg">ネットワークをチェックしてやり直してください</string>
+	<string name="net_error">ネットワークの異常、あなたのネットワーク状態をチェックしてください。</string>
+	<string name="re_load_msg" translatable="false">リロード</string>
+	<string name="nodata">もうないよ</string>
+	<string name="must">必ず記入する</string>
+	<string name="unlogin_attention">まだログインしていません！～</string>
+	<string name="empty_data_detail">まだ何の明細も生まれていないんですよ！～</string>
+	<string name="empty_data_attention">まだ内容はありませんよ！～</string>
+	<string name="empty_data_collect">まだ内容を収蔵していませんよ！～</string>
+	<string name="empty_data_attention_btn">遊びに行く</string>
+	<string name="empty_attention_hint">あなたはまだ誰にも注目していませんよ！～</string>
+	<string name="empty_fans_hint">まだ誰もあなたに注目している人はいませんよ！～</string>
+	<string name="empty_userHome_hint">作品はまだ発表されていませんよ！～</string>
+	<string name="forgetPW">パスワードを忘れていますか？</string>
+	<string name="hint_phoneNum">携帯番号を入力してください</string>
+	<string name="hint_pw">パスワードを入力してください</string>
+	<string name="login">登録する</string>
+	<string name="noAcount">アカウントがありませんか。</string>
+	<string name="register">無料登録</string>
+	<string name="title_register" translatable="false">登録する</string>
+	<string name="hint_code">右の数字を入力してください</string>
+	<string name="sendSmsCode">検証コードを送信する</string>
+	<string name="register_hint_text1" translatable="false">登録されている場合は、ご了承ください。</string>
+	<string name="register_protocol">「ユーザー協議」</string>
+	<string name="register_errorStr">確認コードエラー！</string>
+	<string name="register_weclome">NicoACGへようこそ</string>
+	<string name="mine_login_hint">より多くの素晴らしい内容をログイン</string>
+	<string name="mine_registerAndLogin">登録/登録</string>
+	<string name="mine_signIn_hint">今日はもう</string>
+	<string name="mine_signIn">毎日サインする</string>
+	<string name="mine_beSignIn">署名した</string>
+	<string name="mine_luck">幸運が受賞する</string>
+	<string name="mine_welfare">福祉活動</string>
+	<string name="mine_account">口座</string>
+	<string name="mine_account_frist">2倍のA円</string>
+	<string name="mine_earnings">収益</string>
+	<string name="mine_collect">コレクション</string>
+	<string name="mine_set">設定</string>
+	<string name="mine_vip_status_unOpen">開通していない</string>
+	<string name="mine_vip_status_open">期限が切れる</string>
+	<string name="mine_vip_status_beOpen">期限が切れた</string>
+	<string name="mine_signIn_text1">抽選のチャンスを1回獲得する</string>
+	<string name="mine_signIn_text2">抽選に行く</string>
+	<string name="mine_signIn_text3">後で抽選します</string>
+	<string name="mine_compile">編集する</string>
+	<string name="chooseDataList_title">あなたの国</string>
+	<string name="chooseDataList_select">検索</string>
+	<string name="verify_title">検証</string>
+	<string name="verify_toRegister">検証を行う</string>
+	<string name="verify_phoneHint">あなたの携帯番号が必要です</string>
+	<string name="verify_errorStr">検証コードの誤り</string>
+	<string name="verify_next">次のステップ</string>
+	<string name="countTimer_timeHint">s後に検証コードを再送信することができる</string>
+	<string name="countTimer_after">後</string>
+	<string name="countTimer_sendCode">検証コードを送信する</string>
+	<string name="registerSet_title">パスワードを設定する</string>
+	<string name="registerSet_errorStr">パスワードの長さ6 - 12位</string>
+	<string name="registerSet_registerStr" translatable="false">登録成功</string>
+	<string name="registerSet_setPW">パスワードを入力してください( 6 - 12位)</string>
+	<string name="registerSet_setPWAgent">パスワードを再度確認してください</string>
+	<string name="registerSet_nickname" translatable="false">ニックネーム</string>
+	<string name="registerSet_invitationCode">招待状を記入する</string>
+	<string name="registerSet_errorHint">2回の入力のパスワードが一致しません</string>
+	<string name="registerSet_completeRegistert">登録を完了する</string>
+	<string name="findPWSet_title" translatable="false">パスワードをリセットする</string>
+	<string name="findPWSet_setNewPW">パスワードを入力してください( 6 - 12位)</string>
+	<string name="findPWSet_setNewPWAgent">パスワードを再度確認してください</string>
+	<string name="findPWSet_errorHint">2回の入力のパスワードが一致しません</string>
+	<string name="findPWSet_completeSet">設定を完了</string>
+	<string name="withdrawalStatus_status1">申し込みはすでに提出しました</string>
+	<string name="withdrawalStatus_status2">勘定は銀行の速度によって決まりますので、ご査収に注意してください</string>
+	<string name="withdrawalStatus_confirm">確定する</string>
+	<string name="findPW_title">パスワードを取り戻す</string>
+	<string name="findPW_errorStr">確認コードエラー！</string>
+	<string name="findPW_getSms">検証コードを取得</string>
+	<string name="personInfo_title">個人情報</string>
+	<string name="personInfo_changeTouxiang">頭像を修正する</string>
+	<string name="personInfo_nickName" translatable="false">ニックネーム</string>
+	<string name="personInfo_account">アカウント</string>
+	<string name="personInfo_hint1">アクセス権限</string>
+	<string name="personInfo_hint2">「設定-アプリケーション管理」にアクセスすることができます。</string>
+	<string name="personInfo_hint3">設定</string>
+	<string name="personInfo_hint4">取り消す</string>
+	<string name="alertNickname_title">ニックネームを直す</string>
+	<string name="alertNickname_save">保存する</string>
+	<string name="alertNickname_hint" translatable="false">ニックネームは暇ではありません</string>
+	<string name="headPortraits_noImagve">画像をスキャンしていません</string>
+	<string name="headPortraits_one">張</string>
+	<string name="headPortraits_idCardStr">外部記憶</string>
+	<string name="headPortraits_progressStr">リロード中...</string>
+	<string name="headPortraits_title">画像</string>
+	<string name="headPortraits_allPicture">すべての画像</string>
+	<string name="headPortraits_use">使用する</string>
+	<string name="headPortraits_img">頭像</string>
+	<string name="vip_text1">VIPコース</string>
+	<string name="vip_openVip" translatable="false">VIPを開通</string>
+	<string name="vip_unOpenVip" translatable="false">VIPを開通して新しい世界を発見</string>
+	<string name="vip_beOpenVip">即時料金</string>
+	<string name="vip_oldOpenVip">VIPの期限切れ</string>
+	<string name="vip_text2">VIP特権</string>
+	<string name="vip_content1">無料で見る</string>
+	<string name="vip_content2">ハイビジョン特権</string>
+	<string name="vip_des1">毎日50個の有料作品を無料で見る</string>
+	<string name="vip_des2" translatable="false">画像を見るときには、ハイビジョンモードを開くことができます。</string>
+	<string name="vip_month">月</string>
+	<string name="vip_month2">月</string>
+	<string name="vip_send">贈呈する</string>
+	<string name="vip_lottery">次の抽選</string>
+	<string name="vip_success">成功を満たす</string>
+	<string name="also">そして</string>
+	<string name="day">天</string>
+	<string name="account_title">口座</string>
+	<string name="account_btn1">硬貨を充填する</string>
+	<string name="account_btn2">2倍のA貨幣福祉を満喫する</string>
+	<string name="account_money">A円残高</string>
+	<string name="account_who">Aドルは何ですか。</string>
+	<string name="account_title2">Aドルのチャージ</string>
+	<string name="account_commit">チャージを確認する</string>
+	<string name="account_explain">Apple 1 .アップルの政策制限により、Android端に充填されたAドルは、iOS装置に使用できない。充電が完了していない場合は、アカウントを切り替えたり、APPを落としたりしないでください。第1位充贈貨幣活動は、初めてAドルのユーザーに対して有効であり、活動中に、国の法律法規に違反した行為をしたり、正常な手段に違反したりした場合、その法律責任を追及する権利があります。</string>
+	<string name="account_recommend">お勧め</string>
+	<string name="account_ACoin">A円</string>
+	<string name="account_send">送る</string>
+	<string name="account_lattery">次の抽選</string>
+	<string name="bottomDialogUtil_Pay_title">支払い方法を選択</string>
+	<string name="bottomDialogUtil_Pay_less">残額が足りない</string>
+	<string name="bottomDialogUtil_Pay_residue">残り</string>
+	<string name="bottomDialogUtil_Pay_banned">封禁中、使えません</string>
+	<string name="bottomDialogUtil_Pay_money" translatable="false">支払い金額</string>
+	<string name="bottomDialogUtil_Pay_aliPay" translatable="false">宝を払う</string>
+	<string name="bottomDialogUtil_Pay_wexin">微細な手紙</string>
+	<string name="income_title">収益</string>
+	<string name="income_detail">内訳をする</string>
+	<string name="income_new">新たに</string>
+	<string name="income_btn">収益を現す</string>
+	<string name="income_btn2">現益を得ることはできない</string>
+	<string name="income_money">残高</string>
+	<string name="income_generalize">押し広める現金</string>
+	<string name="income_whoEarings">収益は何ですか。</string>
+	<string name="income_detail_title">収益の明細</string>
+	<string name="income_all">収益を累積する</string>
+	<string name="income_weekIncome">今週の収益</string>
+	<string name="income_monthIncome">今月の収益</string>
+	<string name="income_totalIncome">歴史の総収益</string>
+	<string name="income_addBank">銀行カードを追加</string>
+	<string name="income_no">示しられない</string>
+	<string name="income_hint1">入力金額が現在の金額を超える</string>
+	<string name="income_hint2">入力金額は</string>
+	<string name="income_hint3">の整数倍</string>
+	<string name="income_hint4">控除</string>
+	<string name="income_hint5">手数料</string>
+	<string name="income_hint6">費用がかかる</string>
+	<string name="income_toBankCard">銀行カードへ</string>
+	<string name="income_toMoney">金額を示す</string>
+	<string name="income_toHeightMoney" translatable="false">最も高いことができる</string>
+	<string name="income_allMoney">全部持ち出す</string>
+	<string name="income_withdraw">現像する</string>
+	<string name="income_selectBank">銀行を選んでください</string>
+	<string name="income_selectBank2">銀行を選ぶ</string>
+	<string name="income_currentBank">所属銀行</string>
+	<string name="income_cardNum">カード番号</string>
+	<string name="income_cardNum_hint">カードを入力してください</string>
+	<string name="income_name">名前</string>
+	<string name="income_fristName">苗字</string>
+	<string name="income_addBank_hint">不必要な損失を起こさないように、正確な情報を記入してください。</string>
+	<string name="income_addBank_btn">追加の確認</string>
+	<string name="income_toBankMoney">銀行カードを選択</string>
+	<string name="income_del">削除</string>
+	<string name="income_del_bank">この銀行カードの削除を確定しますか？</string>
+	<string name="attentionAndFans_attention">関心を持つ</string>
+	<string name="attentionAndFans_fans">ファン</string>
+	<string name="attentionAndFans_hint1">この人に注目しないことを確定しますか？</string>
+	<string name="attentionAndFans_hint2">注目を取り消す？</string>
+	<string name="attentionAndFans_hint3">取り消す</string>
+	<string name="addAttention">＋注目</string>
+	<string name="beAttention">注目している</string>
+	<string name="setting_title">設定</string>
+	<string name="setting_dialog_title">キャッシュをクリアしますか？</string>
+	<string name="setting_dialog_ok">確定する</string>
+	<string name="setting_dialog_no">取り消す</string>
+	<string name="setting_clean_success">クリア成功！</string>
+	<string name="setting_privacyPw">プライバシー保護</string>
+	<string name="setting_privacyHint">オープンした後、毎回、Appに切り替えるには、プライバシーのパスワードを入力する必要があります。</string>
+	<string name="setting_editPrivacyPW">プライバシーのパスワードを修正する</string>
+	<string name="setting_cleanCache">キャッシュ</string>
+	<string name="setting_shits">私は突っ込みをします</string>
+	<string name="setting_alertPW">ログインパスワードの修正</string>
+	<string name="setting_language">言語</string>
+	<string name="setting_exit">ログインを終了する</string>
+	<string name="setting_setPrivacyPW">プライバシーのパスワードを設定する</string>
+	<string name="setting_setNewPrivacyPW">新しいプライバシーのパスワードを入力してください</string>
+	<string name="setting_setAgentPrivacyPW">パスワードを再入力</string>
+	<string name="setting_setPrivacyPW_success">プライバシーのパスワードの修正</string>
+	<string name="setting_setPrivacyPW_err">2回のパスワード入力が一致しません</string>
+	<string name="setting_inputPrivacyPW">プライバシーのパスワードを入力してください</string>
+	<string name="setting_inputPrivacyPW_hint1">パスワードの誤り、そして</string>
+	<string name="setting_inputPrivacyPW_hint2">チャンス</string>
+	<string name="setting_shits_result">あなたのフィードバックを受信しました</string>
+	<string name="setting_shits_hint">思いっきり突っ込みをしましょう、私たちは真剣に読み終えます！</string>
+	<string name="setting_shits_send">送信する</string>
+	<string name="setting_et_pw">パスワードを修正する</string>
+	<string name="setting_input_oldPw">古いパスワードを入力してください</string>
+	<string name="setting_input_newPw">新しいパスワードを入力してください</string>
+	<string name="setting_input_agentPw">新しいパスワードを再度確認してください</string>
+	<string name="setting_etPw_hint">2回の入力のパスワードが一致しません</string>
+	<string name="setting_etPw_complete">完成する</string>
+	<string name="setting_change_language_title">言語の切り替え</string>
+	<string name="attention_myInterest">私の趣味</string>
+	<string name="attention_all">すべて</string>
+	<string name="attention_news" translatable="false">最新の動態</string>
+	<string name="isUnShelved" translatable="false">作品はすでに下になっている</string>
+	<string name="lottery">幸運が受賞する</string>
+	<string name="welfare">押し広める現金</string>
+	<string name="commonUse">汎用説明</string>
+	<string name="userAgreement">ユーザープロトコル</string>
+	<string name="format_data_advertis">広告</string>
+	<string name="format_data_after">さっき</string>
+	<string name="format_data_minute">分前</string>
+	<string name="format_data_hour">時間前</string>
+	<string name="format_data_yestoday" translatable="false">昨日</string>
+	<string name="format_data_day">前の日</string>
+	<string name="format_data_month">月の前</string>
+	<string name="format_data_year">年前</string>
+	<string name="splash_text">脂質クローズ&#160;monday&#160;オタククローズ&#160;monday &#160;速＆クローズ&#160;＆＃0 % &#160;楽＆クローズ&#160;</string>
+	<string name="setting_language_zh_cn" translatable="false">简体中文</string>
+	<string name="setting_language_zh_tw" translatable="false" >繁體中文</string>
+	<string name="setting_language_en_us" translatable="false">English</string>
+	<string name="setting_language_ko_kr" translatable="false">한국어</string>
+	<string name="setting_language_ja_jp" translatable="false">日本語</string>
+</resources>

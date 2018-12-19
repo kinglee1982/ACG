@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f5"
+    android:orientation="vertical">
+
+    <com.monke.immerselayout.ImmerseLinearLayout
+        android:id="@+id/search_parnet_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:background="@color/pink_ff8"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/search_layout"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_search_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:transitionName="search">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_search" />
+
+            <EditText
+                android:id="@+id/search_edittext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/search_hint_msg"
+                android:imeOptions="actionSearch"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:textColorHint="@color/black_ccc"
+                android:textCursorDrawable="@drawable/shape_cursor_bg"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/search_delete_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_search_del" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/search_cancel_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/cancel_msg"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </com.monke.immerselayout.ImmerseLinearLayout>
+
+    <FrameLayout
+        android:id="@+id/search_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/search_top_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/search_hot_key_msg"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <com.donkingliang.labels.LabelsView
+                    android:id="@+id/search_hot_key_labelview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    app:labelBackground="@drawable/shape_gray_bg4"
+                    app:labelTextColor="@color/gray_66"
+                    app:labelTextPaddingBottom="5dp"
+                    app:labelTextPaddingLeft="10dp"
+                    app:labelTextPaddingRight="10dp"
+                    app:labelTextPaddingTop="5dp"
+                    app:labelTextSize="12sp"
+                    app:lineMargin="10dp"
+                    app:wordMargin="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/search_bottom_layout"
+                android:transitionGroup="true"
+                style="@style/layout_style"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/search_history_msg"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/search_clear_tv"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="@string/search_clear_msg"
+                        android:textColor="@color/gray_ff9"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <com.library.flowlayout.LineFlowLayout
+                    android:id="@+id/search_history_flow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:flow_line_count="3"
+                    app:is_line_center="true" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/search_link_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:elevation="1dp"
+            android:orientation="vertical"
+            android:translationZ="1dp"
+            android:visibility="gone">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/search_link_rv"
+                android:overScrollMode="never"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@+id/search_keyword_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/icon_search" />
+
+                <TextView
+                    android:id="@+id/search_keyword_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/search_of_keyword_msg"
+                    android:textColor="@color/black_333"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:src="@color/gray_eee" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

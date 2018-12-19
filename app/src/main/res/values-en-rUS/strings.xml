@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name" translatable="false">NicoACG</string>
+	<string name="please_input_privacy_protection" translatable="false">Please input the original password.</string>
+	<string name="pwd_input_privacy_protection" translatable="false">Please enter your privacy password.</string>
+	<string name="pwd_input_again_exit" translatable="false">Press again.</string>
+	<string name="pwd_input_error_msg" translatable="false">You have lost the wrong number%1$d times, and you have%2$d chance.</string>
+	<string name="del" translatable="false">delete</string>
+	<string name="browse_string" translatable="false">find</string>
+	<string name="watch_string" translatable="false">follow</string>
+	<string name="follow_string" translatable="false">+ concern</string>
+	<string name="mine" translatable="false">My</string>
+	<string name="collect" translatable="false">Collection</string>
+	<string name="watch_interest_title_msg" translatable="false">My interest</string>
+	<string name="preview_comment_hint">The comment area is guarded by me.</string>
+	<string name="foot_no_more_msg">No, oh! ~</string>
+	<string name="foot_refresh_pulling_msg">Pull up to load more</string>
+	<string name="foot_refresh_release_msg">Release immediate loading</string>
+	<string name="foot_refresh_loading_msg">Loading</string>
+	<string name="foot_refresh_refreshing_msg">Refreshing</string>
+	<string name="foot_refresh_finish_msg">Load completion</string>
+	<string name="foot_refresh_failed_msg">Load failure</string>
+	<string name="home_first_page_toast_msg" translatable="false">There\'s no front. Slide back.</string>
+	<string name="home_work_removed_msg" translatable="false">The work is off the shelf.</string>
+	<string name="send_msg">Send out</string>
+	<string name="account_disable_1">No response is allowed in the account ban.</string>
+	<string name="account_disable_2">Account stops, unable to watch works!</string>
+	<string name="reply_title_msg">%1$s reply</string>
+	<string name="reply_list_head_title_msg">Full reply</string>
+	<string name="favorited_btn_msg">Already collected</string>
+	<string name="favorit_btn_msg" translatable="false">Collection</string>
+	<string name="reply_btn_msg" translatable="false">comment</string>
+	<string name="forward_btn_msg" translatable="false">share</string>
+	<string name="work_details_waring_msg" translatable="false">The contents of this website all come from user sharing. If there is any improper content, please contact us.</string>
+	<string name="dialog_freeze_coin_title_msg" translatable="false">VIP 50 times a day, free privilege has been used up.</string>
+	<string name="dialog_freeze_coin_txt_msg" translatable="false">A coins frozen</string>
+	<string name="dialog_freeze_coin_unused_msg" translatable="false">A money is insufficient, immediately recharge.</string>
+	<string name="dialog_freeze_coin_unused_msg2" translatable="false">A currency is insufficient, first charged double A currency.</string>
+	<string name="dialog_open_vip_msg" translatable="false">Open VIP free viewing</string>
+	<string name="dialog_open_vip_msg2" translatable="false">Open VIP to enjoy 22% off purchase privileges</string>
+	<string name="dialog_open_vip_msg3" translatable="false">VIP will be free for another 10 days.</string>
+	<string name="dialog_be_free_msg" translatable="false">Look at it for free in 15 days. Remind me.</string>
+	<string name="dialog_can_not_buy_msg" translatable="false">Unable to purchase A coins</string>
+	<string name="home_preview_works_count_msg" translatable="false">Picture%1$d Zhang / video%2$d</string>
+	<string name="home_preview_works_count_msg2" translatable="false">Picture%1$d Zhang</string>
+	<string name="preview_login_msg" translatable="false">Log in and watch</string>
+	<string name="preview_watch_msg" translatable="false">Watch immediately</string>
+	<string name="comment_count_msg" translatable="false">%1$d comment</string>
+	<string name="comment_reply_count_msg" translatable="false">%1$d reply</string>
+	<string name="comment_no_reply_msg" translatable="false">Reply</string>
+	<string name="comment_reply_hint_msg" translatable="false">Reply &#160;%1$s:</string>
+	<string name="comment_dirver_msg" translatable="false">Driver</string>
+	<string name="comment_passenger_msg" translatable="false">Passenger</string>
+	<string name="work_details_comment_nothing_msg" translatable="false">No guardian in comment area</string>
+	<string name="work_details_toast_msg" translatable="false">Using VIP privileges for free viewing</string>
+	<string name="preview_like_msg" translatable="false">Fabulous</string>
+	<string name="work_details_title_msg" translatable="false">Details of the work</string>
+	<string name="preview_title_msg" translatable="false">Preview of works</string>
+	<string name="buy_work_dialog_title_msg" translatable="false">Purchase the work</string>
+	<string name="buy_work_dialog_balance_msg" translatable="false">Balance:%1$d</string>
+	<string name="buy_work_dialog_prompt_msg" translatable="false">Share to QQ group / WeChat group &#160; get free A coin &#160; &#160; > ></string>
+	<string name="pic_hdv_toast_msg" translatable="false">Bigger picture, please wait patiently.</string>
+	<string name="buy_of_coin_dialog_title_msg" translatable="false">VIP 50 times a day, free privilege has been used up.</string>
+	<string name="buy_of_coin_dialog_balance_msg" translatable="false">A currency balance:%1$s</string>
+	<string name="buy_of_coin_dialog_btn_msg" translatable="false">Use%1$sA coins to buy</string>
+	<string name="banned_title_msg" translatable="false">Purchase the work</string>
+	<string name="banned_waring_msg" translatable="false">The account was sealed.</string>
+	<string name="viewer_msg">High-definition mode</string>
+	<string name="video_player_end_msg">Play the next one.</string>
+	<string name="video_player_re_play_msg" translatable="false">To replay</string>
+	<string name="video_player_first_msg">Play the first one</string>
+	<string name="video_buffing_msg">Cushioning...</string>
+	<string name="search_msg">search</string>
+	<string name="cancel_msg">cancel</string>
+	<string name="confirm_msg">Sure?</string>
+	<string name="search_hint_msg">Search interests, works, Na numbers, users</string>
+	<string name="search_hot_key_msg">Hot search</string>
+	<string name="search_history_msg">Search history</string>
+	<string name="search_clear_msg">empty</string>
+	<string name="search_of_keyword_msg">Search for relevant content of "%1$s"</string>
+	<string name="search_result_all_msg" translatable="false">comprehensive</string>
+	<string name="search_result_hobby_msg">Interest</string>
+	<string name="search_result_users_msg">user</string>
+	<string name="search_result_with_hobby_msg">Related interest</string>
+	<string name="search_result_with_users_msg">Related users</string>
+	<string name="search_result_with_works_msg">Related works</string>
+	<string name="more_msg">More</string>
+	<string name="clear_history_title_msg">Are you sure you want to empty search history?</string>
+	<string name="clear_history_waring_msg">Can\'t be recovered after emptying?</string>
+	<string name="not_found_search_string_msg">There is no relevant content. ~\n do you want to try another keyword?</string>
+	<string name="browse_recommend_msg">Recommendation</string>
+	<string name="browse_hot_msg">Hot interest</string>
+	<string name="browse_follow_msg">+ concern</string>
+	<string name="browse_followed_msg">Already paid attention to</string>
+	<string name="dialog_unfollow_msg">Abolish concern</string>
+	<string name="dialog_unfollow_confirm_msg">Are you sure you don\'t care about this person anymore?</string>
+	<string name="share_msg">share</string>
+	<string name="share_title_right_msg">Promoting cash earning</string>
+	<string name="share_wechat_msg">WeChat</string>
+	<string name="share_friend_msg">Circle of friends</string>
+	<string name="share_qq_msg">QQ</string>
+	<string name="share_qzone_msg">QQ Zone</string>
+	<string name="share_weibo_msg">micro-blog</string>
+	<string name="share_line_msg">LINE</string>
+	<string name="share_twwiter_msg">Twwiter</string>
+	<string name="share_facebook_msg">Facebook</string>
+	<string name="share_messenger_msg">Messenger</string>
+	<string name="share_whatsapp_msg">Whatsapp</string>
+	<string name="share_link_msg">Copy link</string>
+	<string name="share_more_msg">More</string>
+	<string name="loading_msg">I\'m trying to load it.</string>
+	<string name="not_login_title_msg">Lack of authority</string>
+	<string name="not_login_waring_msg">Visitors can not use HD mode. Please login first.</string>
+	<string name="not_login_btn_msg1">Login / registration</string>
+	<string name="not_login_open_vip_waring_msg">HD can be used after VIP is launched.</string>
+	<string name="not_login_open_vip_btn_msg">VIP was granted the privilege.</string>
+	<string name="not_login_btn_msg2">Later on</string>
+	<string name="play_video_3G_msg">Streaming traffic is being played.</string>
+	<string name="back_toast">Press the exit procedure again.</string>
+	<string name="copy_na">Na has been copied.</string>
+	<string name="new_version_title">Discover new version</string>
+	<string name="new_version_update_btn">Immediately experience</string>
+	<string name="new_version_cancel_btn">Brutal refusal</string>
+	<string name="load_error_msg">Please check the network and try again.</string>
+	<string name="net_error">Network exception, please check your network status.</string>
+	<string name="re_load_msg" translatable="false">Reload</string>
+	<string name="nodata">No, oh.</string>
+	<string name="must">Required</string>
+	<string name="unlogin_attention">Not yet logged in! ~</string>
+	<string name="empty_data_detail">No details have been made yet. ~</string>
+	<string name="empty_data_attention">No content yet! ~</string>
+	<string name="empty_data_collect">No collection of contents yet! ~</string>
+	<string name="empty_data_attention_btn">Go around</string>
+	<string name="empty_attention_hint">You haven\'t looked at anyone yet! ~</string>
+	<string name="empty_fans_hint">No one is paying attention to you yet! ~</string>
+	<string name="empty_userHome_hint">TA hasn\'t released any works yet. ~</string>
+	<string name="forgetPW">Forget your password?</string>
+	<string name="hint_phoneNum">Please enter cell phone number.</string>
+	<string name="hint_pw">Please input a password</string>
+	<string name="login">Sign in</string>
+	<string name="noAcount">No account?</string>
+	<string name="register">Free registration</string>
+	<string name="title_register" translatable="false">register</string>
+	<string name="hint_code">Please input the number on the right.</string>
+	<string name="sendSmsCode">Send verification code</string>
+	<string name="register_hint_text1" translatable="false">Registration means you have read and agreed.</string>
+	<string name="register_protocol">User agreement</string>
+	<string name="register_errorStr">Verification code error!</string>
+	<string name="register_weclome">Welcome to NicoACG.</string>
+	<string name="mine_login_hint">Login to unlock more exciting content</string>
+	<string name="mine_registerAndLogin">Login / registration</string>
+	<string name="mine_signIn_hint">Sign in today</string>
+	<string name="mine_signIn">Sign in every day</string>
+	<string name="mine_beSignIn">Have signed in</string>
+	<string name="mine_luck">Lucky Draw</string>
+	<string name="mine_welfare">Welfare activities</string>
+	<string name="mine_account">account</string>
+	<string name="mine_account_frist">First charge double A coins</string>
+	<string name="mine_earnings">Profit</string>
+	<string name="mine_collect">Collection</string>
+	<string name="mine_set">Set up</string>
+	<string name="mine_vip_status_unOpen">Not open</string>
+	<string name="mine_vip_status_open">Expire</string>
+	<string name="mine_vip_status_beOpen">Expired</string>
+	<string name="mine_signIn_text1">Get 1 lucky draw opportunities</string>
+	<string name="mine_signIn_text2">To draw a prize</string>
+	<string name="mine_signIn_text3">Draw a prize later</string>
+	<string name="mine_compile">edit</string>
+	<string name="chooseDataList_title">Your country</string>
+	<string name="chooseDataList_select">search</string>
+	<string name="verify_title">Verification</string>
+	<string name="verify_toRegister">Verify</string>
+	<string name="verify_phoneHint">Cash needs your cell phone number.</string>
+	<string name="verify_errorStr">Verification code error</string>
+	<string name="verify_next">Next step</string>
+	<string name="countTimer_timeHint">Revalidation code can be sent after s.</string>
+	<string name="countTimer_after">after</string>
+	<string name="countTimer_sendCode">Send verification code</string>
+	<string name="registerSet_title">Set the password</string>
+	<string name="registerSet_errorStr">The password length is 6-12 bits.</string>
+	<string name="registerSet_registerStr" translatable="false">login was successful</string>
+	<string name="registerSet_setPW">Please enter the setting password (6-12 bits).</string>
+	<string name="registerSet_setPWAgent">Please confirm the password again.</string>
+	<string name="registerSet_nickname" translatable="false">Nickname?</string>
+	<string name="registerSet_invitationCode">Fill in the invitation code (Xuan Tian)</string>
+	<string name="registerSet_errorHint">The password entered two times is inconsistent.</string>
+	<string name="registerSet_completeRegistert">Complete registration</string>
+	<string name="findPWSet_title" translatable="false">reset password</string>
+	<string name="findPWSet_setNewPW">Please enter the setting password (6-12 bits).</string>
+	<string name="findPWSet_setNewPWAgent">Please confirm the password again.</string>
+	<string name="findPWSet_errorHint">The password entered two times is inconsistent.</string>
+	<string name="findPWSet_completeSet">Complete setting</string>
+	<string name="withdrawalStatus_status1">Application for withdrawals has been submitted.</string>
+	<string name="withdrawalStatus_status2">The arrival rate depends on the speed of the bank. Please pay attention to it.</string>
+	<string name="withdrawalStatus_confirm">Sure?</string>
+	<string name="findPW_title">Retrieve the password</string>
+	<string name="findPW_errorStr">Verification code error!</string>
+	<string name="findPW_getSms">Get verification code</string>
+	<string name="personInfo_title">personal data</string>
+	<string name="personInfo_changeTouxiang">Revise the head image</string>
+	<string name="personInfo_nickName" translatable="false">Nickname?</string>
+	<string name="personInfo_account">Account number</string>
+	<string name="personInfo_hint1">No access rights</string>
+	<string name="personInfo_hint2">You can enable access in settings application management.</string>
+	<string name="personInfo_hint3">Set up</string>
+	<string name="personInfo_hint4">cancel</string>
+	<string name="alertNickname_title">Modify the nickname</string>
+	<string name="alertNickname_save">Preservation</string>
+	<string name="alertNickname_hint" translatable="false">Nicknames can not be empty.</string>
+	<string name="headPortraits_noImagve">The picture was not scanned.</string>
+	<string name="headPortraits_one">Zhang</string>
+	<string name="headPortraits_idCardStr">No external storage.</string>
+	<string name="headPortraits_progressStr">Loading...</string>
+	<string name="headPortraits_title">picture</string>
+	<string name="headPortraits_allPicture">All the pictures</string>
+	<string name="headPortraits_use">Use</string>
+	<string name="headPortraits_img">Head portrait</string>
+	<string name="vip_text1">VIP package</string>
+	<string name="vip_openVip" translatable="false">Open VIP</string>
+	<string name="vip_unOpenVip" translatable="false">Open VIP and discover new world</string>
+	<string name="vip_beOpenVip">Immediate renewal</string>
+	<string name="vip_oldOpenVip">VIP has expired</string>
+	<string name="vip_text2">VIP privileges</string>
+	<string name="vip_content1">Free watch</string>
+	<string name="vip_content2">High definition privileges</string>
+	<string name="vip_des1">50 paid works per day for free.</string>
+	<string name="vip_des2" translatable="false">When you browse the picture, you can turn on the HD mode.</string>
+	<string name="vip_month">Month</string>
+	<string name="vip_month2">month</string>
+	<string name="vip_send">Gift</string>
+	<string name="vip_lottery">Second prize</string>
+	<string name="vip_success">Recharge success</string>
+	<string name="also">Also</string>
+	<string name="day">day</string>
+	<string name="account_title">account</string>
+	<string name="account_btn1">Recharge A currency</string>
+	<string name="account_btn2">First charge double A money benefits</string>
+	<string name="account_money">A currency balance</string>
+	<string name="account_who">What is A currency?</string>
+	<string name="account_title2">A currency recharge</string>
+	<string name="account_commit">Confirm the recharge</string>
+	<string name="account_explain">Filling instructions: n_1. Due to Apple\'s policy restrictions, Android recharged A currency can not be used on iOS devices. _n_2. When the recharge is not completed, please do not switch accounts or uninstall APP, otherwise the recharge may not reach the account. _n_3. The first-time recharge of A coin is only valid for users. During the activity, if users violate national laws and regulations or participate in abnormal means, the platform has the right to investigate their legal liability.</string>
+	<string name="account_recommend">Recommend</string>
+	<string name="account_ACoin">A currency</string>
+	<string name="account_send">give</string>
+	<string name="account_lattery">Second prize</string>
+	<string name="bottomDialogUtil_Pay_title">Choose payment method</string>
+	<string name="bottomDialogUtil_Pay_less">Sorry, your credit is running low</string>
+	<string name="bottomDialogUtil_Pay_residue">Surplus</string>
+	<string name="bottomDialogUtil_Pay_banned">Banned from use</string>
+	<string name="bottomDialogUtil_Pay_money" translatable="false">Amount of payment</string>
+	<string name="bottomDialogUtil_Pay_aliPay" translatable="false">Alipay</string>
+	<string name="bottomDialogUtil_Pay_wexin">WeChat</string>
+	<string name="income_title">Profit</string>
+	<string name="income_detail">Detailed</string>
+	<string name="income_new">Newly added</string>
+	<string name="income_btn">Return of income</string>
+	<string name="income_btn2">Unable to cash and gain</string>
+	<string name="income_money">balance</string>
+	<string name="income_generalize">Promoting cash earning</string>
+	<string name="income_whoEarings">What is revenue?</string>
+	<string name="income_detail_title">Profit details</string>
+	<string name="income_all">Cumulative income</string>
+	<string name="income_weekIncome">This week\'s earnings</string>
+	<string name="income_monthIncome">This month\'s earnings</string>
+	<string name="income_totalIncome">Total historical returns</string>
+	<string name="income_addBank">Add bank card</string>
+	<string name="income_no">Unable to mention</string>
+	<string name="income_hint1">The amount of input exceeds the withdrawable amount.</string>
+	<string name="income_hint2">The amount of input must be</string>
+	<string name="income_hint3">Integer multiple, minimum</string>
+	<string name="income_hint4">deduction</string>
+	<string name="income_hint5">Service Charge</string>
+	<string name="income_hint6">rate</string>
+	<string name="income_toBankCard">Arrival bank card</string>
+	<string name="income_toMoney">Amount of cash</string>
+	<string name="income_toHeightMoney" translatable="false">Maximum withdrawable cash</string>
+	<string name="income_allMoney">Full presentation</string>
+	<string name="income_withdraw">Put forward</string>
+	<string name="income_selectBank">Please select a bank.</string>
+	<string name="income_selectBank2">Choice of banks</string>
+	<string name="income_currentBank">Affiliated bank</string>
+	<string name="income_cardNum">Card number</string>
+	<string name="income_cardNum_hint">Please input card number.</string>
+	<string name="income_name">Name</string>
+	<string name="income_fristName">Surname</string>
+	<string name="income_addBank_hint">Please make sure that the information is filled out correctly so as not to cause unnecessary losses.</string>
+	<string name="income_addBank_btn">Confirm the addition</string>
+	<string name="income_toBankMoney">Choose arrival bank card</string>
+	<string name="income_del">delete</string>
+	<string name="income_del_bank">Are you sure you want to delete the bank card?</string>
+	<string name="attentionAndFans_attention">follow</string>
+	<string name="attentionAndFans_fans">Fans</string>
+	<string name="attentionAndFans_hint1">Are you sure you don\'t care about this person anymore?</string>
+	<string name="attentionAndFans_hint2">Cancel concerns?</string>
+	<string name="attentionAndFans_hint3">cancel</string>
+	<string name="addAttention">+ concern</string>
+	<string name="beAttention">Already paid attention to</string>
+	<string name="setting_title">Set up</string>
+	<string name="setting_dialog_title">Clearing cache?</string>
+	<string name="setting_dialog_ok">Sure?</string>
+	<string name="setting_dialog_no">cancel</string>
+	<string name="setting_clean_success">Successful clearance!</string>
+	<string name="setting_privacyPw">Privacy protection</string>
+	<string name="setting_privacyHint">After opening, every time you open / switch to App, you need to enter your privacy password.</string>
+	<string name="setting_editPrivacyPW">Modify privacy password</string>
+	<string name="setting_cleanCache">Scavenging caching</string>
+	<string name="setting_shits">I want to Tucao.</string>
+	<string name="setting_alertPW">Modify login password</string>
+	<string name="setting_language">Language settings</string>
+	<string name="setting_exit">Exit logon</string>
+	<string name="setting_setPrivacyPW">Set privacy password</string>
+	<string name="setting_setNewPrivacyPW">Please enter a new privacy password.</string>
+	<string name="setting_setAgentPrivacyPW">Password again</string>
+	<string name="setting_setPrivacyPW_success">Privacy password modified successfully</string>
+	<string name="setting_setPrivacyPW_err">Two password inconsistency</string>
+	<string name="setting_inputPrivacyPW">Please enter your privacy password.</string>
+	<string name="setting_inputPrivacyPW_hint1">Wrong password, and</string>
+	<string name="setting_inputPrivacyPW_hint2">Second opportunity</string>
+	<string name="setting_shits_result">Your feedback has been received.</string>
+	<string name="setting_shits_hint">Let\'s listen to it. We\'ll finish it carefully.</string>
+	<string name="setting_shits_send">Send out</string>
+	<string name="setting_et_pw">Change Password</string>
+	<string name="setting_input_oldPw">Please input the old password.</string>
+	<string name="setting_input_newPw">Please enter a new password.</string>
+	<string name="setting_input_agentPw">Please reconfirm the new password.</string>
+	<string name="setting_etPw_hint">The password entered two times is inconsistent.</string>
+	<string name="setting_etPw_complete">complete</string>
+	<string name="attention_myInterest">My interest</string>
+	<string name="attention_all">whole</string>
+	<string name="attention_news" translatable="false">news</string>
+	<string name="isUnShelved" translatable="false">The work is off the shelf.</string>
+	<string name="lottery">Lucky Draw</string>
+	<string name="welfare">Promoting cash earning</string>
+	<string name="commonUse">General description</string>
+	<string name="userAgreement">User protocol</string>
+	<string name="format_data_advertis">Advertisement</string>
+	<string name="format_data_after">just</string>
+	<string name="format_data_minute">Minutes ago</string>
+	<string name="format_data_hour">Hours ago</string>
+	<string name="format_data_yestoday" translatable="false">Yesterday</string>
+	<string name="format_data_day">The day before</string>
+	<string name="format_data_month">Months ago</string>
+	<string name="format_data_year">last year</string>
+	<string name="splash_text">Fat &#160; &#160; home &#160; &#160; fast &#160; &#160; le &#160; &#160; station</string>
+	<string name="setting_change_language_title">switch language</string>
+	<string name="setting_language_zh_cn">简体中文</string>
+	<string name="setting_language_zh_tw">繁體中文</string>
+	<string name="setting_language_en_us">English</string>
+	<string name="setting_language_ko_kr">한국어</string>
+	<string name="setting_language_ja_jp">日本語</string>
+
+</resources>

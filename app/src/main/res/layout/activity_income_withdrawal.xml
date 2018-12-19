@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.monke.immerselayout.ImmerseRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_f5"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_head" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_white_bg_5dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rl_selectBank"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/tv_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/income_toBankCard"
+                    android:textColor="@color/black_333"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@mipmap/icon_jiantou_right" />
+
+
+                <TextView
+                    android:id="@+id/tv_bank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/income_addBank"
+                    android:layout_toLeftOf="@id/iv"
+                    android:textColor="@color/black_999"
+                    android:textSize="14sp" />
+
+                <View
+                    style="@style/line_horizontal_15dp"
+                    android:layout_alignParentBottom="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp">
+
+                <TextView
+                    android:id="@+id/tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/income_toMoney"
+                    android:textColor="@color/black_333"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="¥"
+                        android:textColor="@color/black_333"
+                        android:textSize="24sp" />
+
+                    <EditText
+                        android:id="@+id/et_money"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/transparent"
+                        android:inputType="number"
+                        android:textColor="@color/black_333"
+                        android:textColorHint="@color/black_ccc"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_hint"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:visibility="visible"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/income_money"
+                    android:textColor="@color/black_999"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_totalIncome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="0.00"
+                    android:textColor="@color/black_999"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/income_toHeightMoney"
+                    android:textColor="@color/black_999"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_maxWithdrawal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="0.00"
+                    android:textColor="@color/black_999"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_withdraw_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/income_allMoney"
+                    android:textColor="@color/blue_6bb"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_hint"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/pink_hint"
+                android:textSize="12sp"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_withdraw"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape_pink_bg_undefined_5dp"
+            android:enabled="false"
+            android:text="@string/income_withdraw"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/income_explain"
+        android:textColor="@color/black_999"
+        android:textSize="13sp" />
+</com.monke.immerselayout.ImmerseRelativeLayout>

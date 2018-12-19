@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/shape_white_bg">
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="我是标题"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        />
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_below="@id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="25.6dp"
+            android:gravity="center"
+            android:lineSpacingExtra="9sp"
+            android:text="可以不"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/view"
+            style="@style/line"
+            android:layout_alignParentBottom="false"
+            android:layout_below="@id/tv_message"
+            android:layout_marginTop="24dp" />
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/exit"
+                android:layout_width="0dip"
+                android:layout_height="36.9dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                android:text="暂时不去"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_line"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black_666" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="0dip"
+                android:layout_height="36.9dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                android:text="现在就去"
+                android:textColor="@color/red"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

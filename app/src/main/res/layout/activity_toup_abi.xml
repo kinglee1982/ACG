@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.monke.immerselayout.ImmerseRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/head"
+        layout="@layout/layout_head" />
+
+    <com.kcx.acg.views.view.TopicScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/head"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_f5"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_chongzhi_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/advertis_holder_bg"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/mRecyclerView"
+                android:layout_width="match_parent"
+                android:overScrollMode="never"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp" />
+
+
+            <Button
+                android:id="@+id/btn_toUpAbi"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_pink_bg_5dp"
+                android:text="@string/account_commit"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/account_explain"
+                android:textColor="@color/black_999"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </com.kcx.acg.views.view.TopicScrollView>
+
+    <com.kcx.acg.views.view.LoadingErrorView
+        android:id="@+id/loadingErrorView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/head"
+        android:visibility="gone"/>
+
+</com.monke.immerselayout.ImmerseRelativeLayout>

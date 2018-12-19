@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.monke.immerselayout.ImmerseRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/layout_head"
+        layout="@layout/layout_head" />
+
+    <LinearLayout
+        android:id="@+id/ll_phoneHint"
+        android:layout_below="@id/layout_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:visibility="visible"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/verify_phoneHint"
+            android:textColor="@color/black_666"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black_666"
+            android:textSize="14sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_num"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@id/ll_phoneHint"
+        android:focusableInTouchMode="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:id="@+id/et_code1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textSize="17sp"
+            android:textColor="@color/black_333"
+            android:background="@color/gray_eee" />
+
+        <EditText
+            android:id="@+id/et_code2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textSize="17sp"
+            android:textColor="@color/black_333"
+            android:background="@color/gray_eee" />
+
+        <EditText
+            android:id="@+id/et_code3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textSize="17sp"
+            android:textColor="@color/black_333"
+            android:background="@color/gray_eee" />
+
+        <EditText
+            android:id="@+id/et_code4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textSize="17sp"
+            android:textColor="@color/black_333"
+            android:background="@color/gray_eee" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_num"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/register_errorStr"
+        android:textColor="@color/pink_hint"
+         android:visibility="invisible"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_below="@id/tv_hint"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="60dp"
+        android:enabled="false"
+        android:background="@drawable/shape_pink_bg_undefined_5dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="@string/verify_next" />
+
+    <Button
+        android:id="@+id/btn_timeHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_next"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/transparent"
+        android:textSize="14sp"
+        android:textColor="@color/black_999"/>
+
+
+</com.monke.immerselayout.ImmerseRelativeLayout>

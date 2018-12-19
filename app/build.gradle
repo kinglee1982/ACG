@@ -1,0 +1,212 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+apply plugin: 'walle'
+
+
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "26.0.2"
+
+//    aaptOptions {
+//        cruncherEnabled = false
+//        useNewCruncher = false
+//    }
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    defaultConfig {
+        applicationId "com.kcx.acg"
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.2.2"
+        multiDexEnabled true
+        flavorDimensions "versionCode"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+//        defaultConfig {
+        ndk {
+            abiFilters 'x86', "armeabi-v7a"//or armeabi-v7a、arm64-v8a、x86
+        }
+//        }
+        packagingOptions {
+            exclude 'META-INF/rxjava.properties'
+        }
+    }
+    signingConfigs {
+        release {
+            storeFile file("../NicoACG.jks")
+            storePassword 'yes,ido'
+            keyAlias 'nicoacg'
+            keyPassword 'yes,ido'
+        }
+        debug {
+            storeFile file('../NicoACG.jks')
+            storePassword 'yes,ido'
+            keyAlias 'nicoacg'
+            keyPassword 'yes,ido'
+        }
+    }
+
+    buildTypes {
+        release {
+            buildConfigField "boolean", "LOG_DEBUG", "false" //不显示log
+            zipAlignEnabled true     //Zipalign优化
+            shrinkResources true    // 移除无用的resource文件
+            signingConfig signingConfigs.release
+            minifyEnabled true //混淆
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+        }
+        debug {
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "nicoacg-android_zh-cn_ver${versionName}.apk"
+        }
+    }
+}
+
+walle {
+    // 指定渠道包的输出路径
+    apkOutputFolder = new File("${project.buildDir}/outputs/channels");
+    // 定制渠道包的APK的文件名称
+//    apkFileNameFormat = '${appName}-${packageName}-${channel}-${buildType}-v${versionName}-${versionCode}-${buildTime}.apk';
+    apkFileNameFormat = 'nicoacg_android_ver${versionName}_${channel}.apk';
+    // 渠道配置文件
+    channelFile = new File("${project.getProjectDir()}/channel")
+}
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.google.firebase:firebase-core:11.0.4'
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    testImplementation 'junit:junit:4.12'
+
+    //方法数越界
+    implementation 'com.android.support:multidex:1.0.0'
+
+    //EventBus
+    implementation 'org.greenrobot:eventbus:3.1.1'
+
+    //Retrofit2.0 RxJava2.0
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.3.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.1'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+
+    /*生命周期*/
+    implementation 'com.trello:rxlifecycle:1.0'
+    implementation 'com.trello:rxlifecycle-components:1.0'
+
+    //LogUtils
+    implementation 'com.apkfuns.logutils:library:1.6.0'
+
+    //标签
+    implementation 'com.github.donkingliang:LabelsView:1.4.2'
+
+    //Google Guava
+    implementation 'com.google.guava:guava:23.0-android'
+    implementation 'com.github.huburt-Hu:NewbieGuide:v2.4.0'
+
+    //Androdi Util工具
+    implementation 'com.blankj:utilcode:1.19.0'
+
+    //适配
+    implementation 'me.jessyan:autosize:0.7.0'
+
+    //dialog
+    implementation 'com' +
+            '.github.f0ris.sweetalert:library:1.5.1'
+
+    //沉浸式状态栏
+    implementation 'com.zhangmonke:ImmerseLayout:1.1.1'
+
+    //VLayout框架,搭配Tangram
+    implementation('com.alibaba.android:vlayout:1.2.8') {
+        transitive = true
+    }
+
+    //View界面渲染框架,搭配VLayout
+    implementation 'com.alibaba.android:tangram:3.1.3'
+
+    //CardView
+    implementation 'com.android.support:cardview-v7:27.1.1'
+
+    //底部导航栏
+    implementation 'com.ashokvarma.android:bottom-navigation-bar:2.0.4'
+
+    //下拉刷新
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14'
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14'
+
+    //图片选择器
+    implementation 'com.zhihu.android:matisse:0.5.0-alpha4'
+    implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.2.3'
+    implementation 'com.github.bumptech.glide:glide:4.3.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.3.1'
+    implementation 'jp.wasabeef:glide-transformations:3.3.0'
+
+    //6.0权限
+    implementation 'com.zhy:mpermission-api:1.0.0'
+    annotationProcessor 'com.zhy:mpermission-compiler:1.0.0'
+
+    //图片压缩
+    implementation 'com.zxy.android:tiny:0.1.0'
+
+    //    compile project(path: ':library')
+
+    //圆形图片
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+
+    //图片查看器
+    implementation 'com.github.chrisbanes:PhotoView:1.2.6'
+    implementation 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+    implementation files('libs/zxing.jar')
+
+    //数据库
+    implementation 'org.greenrobot:greendao:3.2.2'
+    implementation 'com.airbnb.android:lottie:2.6.1'
+
+    //WebView
+    implementation 'com.just.agentweb:agentweb:4.0.2'
+
+    //webview通信
+    implementation 'com.github.lzyzsd:jsbridge:1.0.4'
+    implementation 'com.github.johnkil.android-appmsg:appmsg:1.2.0'
+
+    //LCardView
+    implementation 'org.linwg1988:lcardview:1.3'
+    implementation 'com.meituan.android.walle:library:1.1.6'
+    implementation 'com.github.1002326270xc:FlowView-master:v1.1'
+    implementation project(':vitamio')
+    //    compile 'com.github.donkingliang:LabelsView:1.4.1'
+    //AppSync SDK
+    implementation files('libs/aws-android-sdk-core-2.4.2.jar')
+    implementation files('libs/aws-android-sdk-s3-2.4.2.jar')
+    implementation project(':imageselector')
+    implementation project(':videocompressor')
+}
+apply plugin: 'com.google.gms.google-services'

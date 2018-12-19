@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name" translatable="false">니코아르.</string>
+	<string name="please_input_privacy_protection" translatable="false">원본 암호를 입력하십시오.</string>
+	<string name="pwd_input_privacy_protection" translatable="false">프라이버시 암호를 입력하십시오.</string>
+	<string name="pwd_input_again_exit" translatable="false">한 번 더 눌러서 하차.</string>
+	<string name="pwd_input_error_msg" translatable="false">당신은%1$d 달러 차례를 잘못 지었습니다. 그리고%2$d 달러짜리 기회</string>
+	<string name="del" translatable="false">삭제</string>
+	<string name="browse_string" translatable="false">발견하다</string>
+	<string name="watch_string" translatable="false">관심</string>
+	<string name="follow_string" translatable="false">주목하다</string>
+	<string name="mine" translatable="false">나의</string>
+	<string name="collect" translatable="false">수장하다.</string>
+	<string name="watch_interest_title_msg" translatable="false">나의 취미</string>
+	<string name="preview_comment_hint">댓글에서 제가 지켜주는...</string>
+	<string name="foot_no_more_msg">없어요!아 ~</string>
+	<string name="foot_refresh_pulling_msg">상자가재도 더 많이</string>
+	<string name="foot_refresh_release_msg">석방된 즉시 추가하기</string>
+	<string name="foot_refresh_loading_msg">추가하는 중</string>
+	<string name="foot_refresh_refreshing_msg">새로고침</string>
+	<string name="foot_refresh_finish_msg">가재완료</string>
+	<string name="foot_refresh_failed_msg">추가하기 실패</string>
+	<string name="home_first_page_toast_msg" translatable="false">앞에 없어, 뒤로 미끄러우니.</string>
+	<string name="home_work_removed_msg" translatable="false">이 작품은 이미 경쟁작이다.</string>
+	<string name="send_msg">발송</string>
+	<string name="account_disable_1">계좌번호 금언, 회답을 할 수 없음!</string>
+	<string name="account_disable_2">계좌번호 차단 중 작품을 볼 수 없음!</string>
+	<string name="reply_title_msg">회신% 1 달러</string>
+	<string name="reply_list_head_title_msg">모두</string>
+	<string name="favorited_btn_msg">모음집</string>
+	<string name="favorit_btn_msg" translatable="false">수장하다.</string>
+	<string name="reply_btn_msg" translatable="false">평론</string>
+	<string name="forward_btn_msg" translatable="false">나누다</string>
+	<string name="work_details_waring_msg" translatable="false">본 정거장의 내용은 모두 사용자가 공유하는데, 부당한 내용은 우리에게 연락해 주십시오.</string>
+	<string name="dialog_freeze_coin_title_msg" translatable="false">VIP 매일 50 번의 무료 특권을 이미 다 썼다.</string>
+	<string name="dialog_freeze_coin_txt_msg" translatable="false">A 조화가 동결되다</string>
+	<string name="dialog_freeze_coin_unused_msg" translatable="false">A 조화가 부족하면 즉시 충만한다.</string>
+	<string name="dialog_freeze_coin_unused_msg2" translatable="false">A 동전 이 부족하여, 두 배 의 배 로 충전하게 되었다</string>
+	<string name="dialog_open_vip_msg" translatable="false">VIP 무료 관람을 합니다.</string>
+	<string name="dialog_open_vip_msg2" translatable="false">VIP 차유 7.8 구매 특권 개통</string>
+	<string name="dialog_open_vip_msg3" translatable="false">10 일 지나면 VIP 관람 무료입니다.</string>
+	<string name="dialog_be_free_msg" translatable="false">15 일 더 보자, 공짜로 보고, 일깨워 주세요.</string>
+	<string name="dialog_can_not_buy_msg" translatable="false">A 코트로 구매할 수 없습니다.</string>
+	<string name="home_preview_works_count_msg" translatable="false">그림%1$d달러 장 / 비디오%2$d 달러개</string>
+	<string name="home_preview_works_count_msg2" translatable="false">그림%1$d</string>
+	<string name="preview_login_msg" translatable="false">로그인</string>
+	<string name="preview_watch_msg" translatable="false">즉시 관람 하다</string>
+	<string name="comment_count_msg" translatable="false">평론%1$d 달러</string>
+	<string name="comment_reply_count_msg" translatable="false">회신%1$d 달러</string>
+	<string name="comment_no_reply_msg" translatable="false">답장</string>
+	<string name="comment_reply_hint_msg" translatable="false">답장  사이버 &#160;,%1$s:</string>
+	<string name="comment_dirver_msg" translatable="false">운전사</string>
+	<string name="comment_passenger_msg" translatable="false">승객.</string>
+	<string name="work_details_comment_nothing_msg" translatable="false">평론 지역 무인 수호</string>
+	<string name="work_details_toast_msg" translatable="false">VIP 특권을 사용하고 있습니다. 무료로 관람을 하고 있습니다.</string>
+	<string name="preview_like_msg" translatable="false">칭찬하다</string>
+	<string name="work_details_title_msg" translatable="false">작품의 상세한 상황.</string>
+	<string name="preview_title_msg" translatable="false">작품 예람</string>
+	<string name="buy_work_dialog_title_msg" translatable="false">이 작품을 구매하다.</string>
+	<string name="buy_work_dialog_balance_msg" translatable="false">잔액:% 1 달러</string>
+	<string name="buy_work_dialog_prompt_msg" translatable="false">Q  lt.  lt. lt; Written gold  gt.  gt;)</string>
+	<string name="pic_hdv_toast_msg" translatable="false">그림 이 비교적 커서, 참을성 있게 기다려 주십시오.</string>
+	<string name="buy_of_coin_dialog_title_msg" translatable="false">VIP 매일 50 번의 무료 특권을 이미 다 썼다.</string>
+	<string name="buy_of_coin_dialog_balance_msg" translatable="false">A 화폐 잔액:%1$s 달러 s</string>
+	<string name="buy_of_coin_dialog_btn_msg" translatable="false">sA 동전%1$s 달러 사용</string>
+	<string name="banned_title_msg" translatable="false">이 작품을 구매하다.</string>
+	<string name="banned_waring_msg" translatable="false">이 계좌는 봉쇄되었다.</string>
+	<string name="viewer_msg">고청 패턴</string>
+	<string name="video_player_end_msg">다음 거 틀어주세요.</string>
+	<string name="video_player_re_play_msg" translatable="false">재방송</string>
+	<string name="video_player_first_msg">첫 번째 방송.</string>
+	<string name="video_buffing_msg">버퍼링 중...</string>
+	<string name="search_msg">수색.</string>
+	<string name="cancel_msg">취소</string>
+	<string name="confirm_msg">확정하다</string>
+	<string name="search_hint_msg">취미, 작품, na 번호, 사용자</string>
+	<string name="search_hot_key_msg">인기 있는 검색</string>
+	<string name="search_history_msg">검색 역사</string>
+	<string name="search_clear_msg">허공</string>
+	<string name="search_of_keyword_msg">%1$s\' 관련 내용 검색</string>
+	<string name="search_result_all_msg" translatable="false">종합하다.</string>
+	<string name="search_result_hobby_msg">흥미</string>
+	<string name="search_result_users_msg">사용자</string>
+	<string name="search_result_with_hobby_msg">관련 흥미</string>
+	<string name="search_result_with_users_msg">관련 사용자</string>
+	<string name="search_result_with_works_msg">관련 작품</string>
+	<string name="more_msg">더...</string>
+	<string name="clear_history_title_msg">검색 역사를 청공으로 확인하시겠습니까?</string>
+	<string name="clear_history_waring_msg">청공 후 회복할 수 없나요?</string>
+	<string name="not_found_search_string_msg">관련 내용이 없습니다!키워드 바꿔보고 해볼까요?</string>
+	<string name="browse_recommend_msg">달인 추천</string>
+	<string name="browse_hot_msg">인기 있는 취미.</string>
+	<string name="browse_follow_msg">주목하다</string>
+	<string name="browse_followed_msg">주목하다.</string>
+	<string name="dialog_unfollow_msg">관심 을 취소 하다</string>
+	<string name="dialog_unfollow_confirm_msg">이 사람이 더 이상 팔리지 않을지 확실합니까?</string>
+	<string name="share_msg">나누다</string>
+	<string name="share_title_right_msg">현금을 널리 보급하다.</string>
+	<string name="share_wechat_msg">소소한 편지</string>
+	<string name="share_friend_msg">친구</string>
+	<string name="share_qq_msg">QQ</string>
+	<string name="share_qzone_msg">QQ 공간</string>
+	<string name="share_weibo_msg">미세하다</string>
+	<string name="share_line_msg">라인</string>
+	<string name="share_twwiter_msg">two two two two too</string>
+	<string name="share_facebook_msg">Facebook</string>
+	<string name="share_messenger_msg">Messenger. Messenger</string>
+	<string name="share_whatsapp_msg">후드</string>
+	<string name="share_link_msg">링크 복사</string>
+	<string name="share_more_msg">더...</string>
+	<string name="loading_msg">필사적으로 불러오는 중...</string>
+	<string name="not_login_title_msg">권한 부족</string>
+	<string name="not_login_waring_msg">관광객 은 청청 모델 을 사용할 수 없으니, 우선 로그인 해 주십시오</string>
+	<string name="not_login_btn_msg1">로그인 / 등록</string>
+	<string name="not_login_open_vip_waring_msg">VIP 개통하면 고청 패턴을 사용할 수 있습니다.</string>
+	<string name="not_login_open_vip_btn_msg">VIP 를 개통하여 이 특권을 얻다.</string>
+	<string name="not_login_btn_msg2">잠시 후에 다시 말씀드리겠습니다.</string>
+	<string name="play_video_3G_msg">유량량 사용 중</string>
+	<string name="back_toast">프로그램에서 한 번 더 눌러야 한다.</string>
+	<string name="copy_na">na 번호 복사</string>
+	<string name="new_version_title">새로운 버전을 발견하다</string>
+	<string name="new_version_update_btn">즉시 체험하다.</string>
+	<string name="new_version_cancel_btn">잔혹하게 거절하다.</string>
+	<string name="load_error_msg">네트워크를 검사한 후 다시 시도해 보십시오.</string>
+	<string name="net_error">네트워크 이상, 네트워크 상태 검사하기</string>
+	<string name="re_load_msg" translatable="false">다시 불러오기</string>
+	<string name="nodata">네, 없습니다.</string>
+	<string name="must">필립</string>
+	<string name="unlogin_attention">아직 로그인 안 했어!아 ~</string>
+	<string name="empty_data_detail">아직 어떤 명세도 발생하지 않았다.아 ~</string>
+	<string name="empty_data_attention">아직 내용이 없어요!아 ~</string>
+	<string name="empty_data_collect">아직 소장 내용이 없습니다!아 ~</string>
+	<string name="empty_data_attention_btn">구경하러 가다</string>
+	<string name="empty_attention_hint">너 아직 관심 없어!아 ~</string>
+	<string name="empty_fans_hint">아무도 관심 없어!아 ~</string>
+	<string name="empty_userHome_hint">아직 작품 안 나왔네요!아 ~</string>
+	<string name="forgetPW">비밀번호를 잊었습니까?</string>
+	<string name="hint_phoneNum">휴대폰 번호 입력해주세요.</string>
+	<string name="hint_pw">비밀번호 입력</string>
+	<string name="login">로그인</string>
+	<string name="noAcount">장부가 없어요?</string>
+	<string name="register">무료 등록</string>
+	<string name="title_register" translatable="false">책.</string>
+	<string name="hint_code">오른쪽에 숫자를 입력하십시오.</string>
+	<string name="sendSmsCode">검증 코드 보내기</string>
+	<string name="register_hint_text1" translatable="false">등록은 당신이 이미 읽으며 동의하였음을 나타낸다</string>
+	<string name="register_protocol">《 가입자 협의 》.</string>
+	<string name="register_errorStr">사이즈 검증 오류!</string>
+	<string name="register_weclome">니코아리에 오신 걸 환영합니다.</string>
+	<string name="mine_login_hint">더 많은 하이라이트 로그인 풀기</string>
+	<string name="mine_registerAndLogin">로그인 / 등록</string>
+	<string name="mine_signIn_hint">오늘 벌써 도착하였다.</string>
+	<string name="mine_signIn">매일 출근하다</string>
+	<string name="mine_beSignIn">출석</string>
+	<string name="mine_luck">행운의 추첨.</string>
+	<string name="mine_welfare">복지 활동.</string>
+	<string name="mine_account">계정 계좌</string>
+	<string name="mine_account_frist">첫 번째, 두 배, A.</string>
+	<string name="mine_earnings">수익</string>
+	<string name="mine_collect">수장하다.</string>
+	<string name="mine_set">설치</string>
+	<string name="mine_vip_status_unOpen">미개하다</string>
+	<string name="mine_vip_status_open">만기</string>
+	<string name="mine_vip_status_beOpen">기한이 되다</string>
+	<string name="mine_signIn_text1">추첨 1 차 추첨.</string>
+	<string name="mine_signIn_text2">추첨 하러 가다</string>
+	<string name="mine_signIn_text3">잠시 후에 추첨을 합니다.</string>
+	<string name="mine_compile">편집하다.</string>
+	<string name="chooseDataList_title">너의 나라</string>
+	<string name="chooseDataList_select">수색.</string>
+	<string name="verify_title">검증.</string>
+	<string name="verify_toRegister">검증을 하다</string>
+	<string name="verify_phoneHint">네 핸드폰이 필요해요.</string>
+	<string name="verify_errorStr">검증 오류 오류</string>
+	<string name="verify_next">다음 걸음</string>
+	<string name="countTimer_timeHint">s 인증 코드 다시 보내기</string>
+	<string name="countTimer_after">뒤</string>
+	<string name="countTimer_sendCode">검증 코드 보내기</string>
+	<string name="registerSet_title">비밀번호 설정</string>
+	<string name="registerSet_errorStr">비밀번호 길이가 6 - 12 위입니다.</string>
+	<string name="registerSet_registerStr" translatable="false">등록</string>
+	<string name="registerSet_setPW">비밀번호 설정 (6 - 12 분) 을 입력하십시오.</string>
+	<string name="registerSet_setPWAgent">비밀번호 다시 한번 확인해주세요.</string>
+	<string name="registerSet_nickname" translatable="false">별명, 별명</string>
+	<string name="registerSet_invitationCode">초대장을 작성하여 패배를 받다.</string>
+	<string name="registerSet_errorHint">두 번 입력한 암호가 일치하지 않습니다.</string>
+	<string name="registerSet_completeRegistert">등록 완료</string>
+	<string name="findPWSet_title" translatable="false">암호 초기화</string>
+	<string name="findPWSet_setNewPW">비밀번호 설정 (6 - 12 분) 을 입력하십시오.</string>
+	<string name="findPWSet_setNewPWAgent">비밀번호 다시 한번 확인해주세요.</string>
+	<string name="findPWSet_errorHint">두 번 입력한 암호가 일치하지 않습니다.</string>
+	<string name="findPWSet_completeSet">설정 완성</string>
+	<string name="withdrawalStatus_status1">제출 신청</string>
+	<string name="withdrawalStatus_status2">장부 상황 에 가서 은행 의 속도 를 보고 정할 때 에 주의하여 조사해 주시기 를 바랍니다</string>
+	<string name="withdrawalStatus_confirm">확정하다</string>
+	<string name="findPW_title">비밀번호 찾기</string>
+	<string name="findPW_errorStr">사이즈 검증 오류!</string>
+	<string name="findPW_getSms">인증 가져오는 중...</string>
+	<string name="personInfo_title">개인 정보</string>
+	<string name="personInfo_changeTouxiang">두상 을 고치다</string>
+	<string name="personInfo_nickName" translatable="false">별명, 별명</string>
+	<string name="personInfo_account">계좌 번호</string>
+	<string name="personInfo_hint1">접근 권한 없음</string>
+	<string name="personInfo_hint2">설정할 수 있는 \'응용 프로그램 관리\' 에 접근할 수 있습니다.</string>
+	<string name="personInfo_hint3">설치</string>
+	<string name="personInfo_hint4">취소</string>
+	<string name="alertNickname_title">별명 수정</string>
+	<string name="alertNickname_save">보존</string>
+	<string name="alertNickname_hint" translatable="false">닉네임이 비면 안 돼요.</string>
+	<string name="headPortraits_noImagve">그림 스캔이 없다</string>
+	<string name="headPortraits_one">장.</string>
+	<string name="headPortraits_idCardStr">외부 저장소 없음</string>
+	<string name="headPortraits_progressStr">불러오는 중...</string>
+	<string name="headPortraits_title">그림</string>
+	<string name="headPortraits_allPicture">모든 그림</string>
+	<string name="headPortraits_use">쓰다</string>
+	<string name="headPortraits_img">두상</string>
+	<string name="vip_text1">VIP 세트</string>
+	<string name="vip_openVip" translatable="false">VIP 개통</string>
+	<string name="vip_unOpenVip" translatable="false">VIP 개통하여, 새로운 세계를 발견하다.</string>
+	<string name="vip_beOpenVip">급속비</string>
+	<string name="vip_oldOpenVip">VIP 는 이미 기한이 지났습니다.</string>
+	<string name="vip_text2">VIP 특권</string>
+	<string name="vip_content1">무료 관람</string>
+	<string name="vip_content2">특권을 청산하다.</string>
+	<string name="vip_des1">매일 50 개 부기 작품 공짜로 본다.</string>
+	<string name="vip_des2" translatable="false">그림 볼 때 눈길 높이 열 수 있다</string>
+	<string name="vip_month">개월.</string>
+	<string name="vip_month2">월, 달</string>
+	<string name="vip_send">증정</string>
+	<string name="vip_lottery">차 추첨.</string>
+	<string name="vip_success">성공할 수 있다.</string>
+	<string name="also">그리고.</string>
+	<string name="day">하늘</string>
+	<string name="account_title">계정 계좌</string>
+	<string name="account_btn1">충전 A 화폐</string>
+	<string name="account_btn2">수충향 2 배 A 화폐 복지</string>
+	<string name="account_money">돈 A 잔액</string>
+	<string name="account_who">A. A. A. A. A.</string>
+	<string name="account_title2">A 동전 충전 값</string>
+	<string name="account_commit">확인 충전</string>
+	<string name="account_explain">충전적 설명은 애플 정책의 제한으로, Android 의 A 폐를 iOS 설비에 사용할 수 없다.2. 완구 2. 충전치가 완성되지 않을 때, 계좌를 전환하거나 APP 를 해제하지 마십시오.3. 1.</string>
+	<string name="account_recommend">추천하다.</string>
+	<string name="account_ACoin">A 화폐</string>
+	<string name="account_send">보내다</string>
+	<string name="account_lattery">차 추첨.</string>
+	<string name="bottomDialogUtil_Pay_title">지불 방식 선택</string>
+	<string name="bottomDialogUtil_Pay_less">잔고가 부족하다.</string>
+	<string name="bottomDialogUtil_Pay_residue">잉여</string>
+	<string name="bottomDialogUtil_Pay_banned">금중 에 봉하여 사용할 수 없다</string>
+	<string name="bottomDialogUtil_Pay_money" translatable="false">지불 금액</string>
+	<string name="bottomDialogUtil_Pay_aliPay" translatable="false">보물을 지불하다.</string>
+	<string name="bottomDialogUtil_Pay_wexin">소소한 편지</string>
+	<string name="income_title">수익</string>
+	<string name="income_detail">명세</string>
+	<string name="income_new">새로 늘다</string>
+	<string name="income_btn">수익을 현금으로 제출하다.</string>
+	<string name="income_btn2">수익을 현금으로 제시할 수 없다</string>
+	<string name="income_money">잔액</string>
+	<string name="income_generalize">현금을 널리 보급하다.</string>
+	<string name="income_whoEarings">무엇이 수익입니까?</string>
+	<string name="income_detail_title">수익이 명세하다.</string>
+	<string name="income_all">누적 수익</string>
+	<string name="income_weekIncome">금주 수익</string>
+	<string name="income_monthIncome">이번 달 수익</string>
+	<string name="income_totalIncome">역사 총이익.</string>
+	<string name="income_addBank">카드 추가</string>
+	<string name="income_no">입현할 수 없다</string>
+	<string name="income_hint1">입력 금액이 현금을 초과할 수 있는 금액을 초과하다.</string>
+	<string name="income_hint2">수입금액을 입력하다</string>
+	<string name="income_hint3">1 배 최소</string>
+	<string name="income_hint4">공제하다</string>
+	<string name="income_hint5">수속료, 수수료</string>
+	<string name="income_hint6">애쓰다</string>
+	<string name="income_toBankCard">은행 신용카드</string>
+	<string name="income_toMoney">현금 인출 금액.</string>
+	<string name="income_toHeightMoney" translatable="false">최고로 현금을 제기할 수 있다.</string>
+	<string name="income_allMoney">전부 현금으로 제출하다.</string>
+	<string name="income_withdraw">현금을 제출하다</string>
+	<string name="income_selectBank">은행 선택</string>
+	<string name="income_selectBank2">은행을 선택하다</string>
+	<string name="income_currentBank">소속 은행</string>
+	<string name="income_cardNum">카드</string>
+	<string name="income_cardNum_hint">카드번호 입력해주세요.</string>
+	<string name="income_name">이름</string>
+	<string name="income_fristName">성씨</string>
+	<string name="income_addBank_hint">불필요한 손실을 초래하지 않도록 정보를 정확히 기입하세요.</string>
+	<string name="income_addBank_btn">추가 추가</string>
+	<string name="income_toBankMoney">예금 계좌 를 선택하다</string>
+	<string name="income_del">삭제</string>
+	<string name="income_del_bank">이 은행 카드를 삭제하시겠습니까?</string>
+	<string name="attentionAndFans_attention">관심</string>
+	<string name="attentionAndFans_fans">팬</string>
+	<string name="attentionAndFans_hint1">이 사람이 더 이상 팔리지 않을지 확실합니까?</string>
+	<string name="attentionAndFans_hint2">관심 취소?</string>
+	<string name="attentionAndFans_hint3">취소</string>
+	<string name="addAttention">주목하다</string>
+	<string name="beAttention">주목하다.</string>
+	<string name="setting_title">설치</string>
+	<string name="setting_dialog_title">캐시 지우기 확정?</string>
+	<string name="setting_dialog_ok">확정하다</string>
+	<string name="setting_dialog_no">취소</string>
+	<string name="setting_clean_success">지우기 성공!</string>
+	<string name="setting_privacyPw">프라이버시 보호</string>
+	<string name="setting_privacyHint">켜진 후, 매번 열기 / 전환 / 전환 / 전환 (App) 으로 전환할 때마다 입력하십시오.</string>
+	<string name="setting_editPrivacyPW">비밀 비밀번호 변경</string>
+	<string name="setting_cleanCache">캐시 지우기</string>
+	<string name="setting_shits">나는 홈을 토할 것이다.</string>
+	<string name="setting_alertPW">로그인 비밀번호 변경</string>
+	<string name="setting_language">언어</string>
+	<string name="setting_exit">로그인 로그인</string>
+	<string name="setting_setPrivacyPW">비밀 암호를 설정합니다.</string>
+	<string name="setting_setNewPrivacyPW">새로운 프라이버시 암호를 입력하십시오.</string>
+	<string name="setting_setAgentPrivacyPW">다시 비밀번호 입력</string>
+	<string name="setting_setPrivacyPW_success">프라이버시 비밀번호 변경 성공</string>
+	<string name="setting_setPrivacyPW_err">2 차 암호 입력 불일치</string>
+	<string name="setting_inputPrivacyPW">프라이버시 암호를 입력하십시오.</string>
+	<string name="setting_inputPrivacyPW_hint1">비밀번호 오류, 그리고</string>
+	<string name="setting_inputPrivacyPW_hint2">차 기회.</string>
+	<string name="setting_shits_result">귀하의 피드백을 받습니다</string>
+	<string name="setting_shits_hint">마음껏 홈을 토해라, 우리 열심히 볼 거야!</string>
+	<string name="setting_shits_send">발송</string>
+	<string name="setting_et_pw">비밀번호 변경</string>
+	<string name="setting_input_oldPw">오래된 암호를 입력하십시오</string>
+	<string name="setting_input_newPw">새 암호를 입력하십시오</string>
+	<string name="setting_input_agentPw">새로운 암호 다시 확인해주세요.</string>
+	<string name="setting_etPw_hint">두 번 입력한 암호가 일치하지 않습니다.</string>
+	<string name="setting_etPw_complete">완성하다.</string>
+	<string name="setting_change_language_title">언어 변경</string>
+	<string name="attention_myInterest">나의 취미</string>
+	<string name="attention_all">모두.</string>
+	<string name="attention_news" translatable="false">최신 동태</string>
+	<string name="isUnShelved" translatable="false">작품이 이미 결탁되었다.</string>
+	<string name="lottery">행운의 추첨.</string>
+	<string name="welfare">현금을 널리 보급하다.</string>
+	<string name="commonUse">통용되어 설명하다.</string>
+	<string name="userAgreement">사용자 프로토콜</string>
+	<string name="format_data_advertis">광고</string>
+	<string name="format_data_after">방금</string>
+	<string name="format_data_minute">분 전</string>
+	<string name="format_data_hour">시간 전</string>
+	<string name="format_data_yestoday" translatable="false">어제</string>
+	<string name="format_data_day">일전</string>
+	<string name="format_data_month">월 이전</string>
+	<string name="format_data_year">연전</string>
+	<string name="splash_text">거름  아름 다운 7,0,0,0,03,163 - - - - - - - - - - - - - - - -.</string>
+	<string name="setting_language_zh_cn" translatable="false">简体中文</string>
+	<string name="setting_language_zh_tw" translatable="false" >繁體中文</string>
+	<string name="setting_language_en_us" translatable="false">English</string>
+	<string name="setting_language_ko_kr" translatable="false">한국어</string>
+	<string name="setting_language_ja_jp" translatable="false">日本語</string>
+</resources>

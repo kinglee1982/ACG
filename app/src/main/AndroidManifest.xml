@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kcx.acg">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!--aws-->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission
+        android:name="android.permission.CHANGE_CONFIGURATION"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:name=".base.SysApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon, android:theme,android:allowBackup,android:label">
+        <meta-data
+            android:name="design_width_in_dp"
+            android:value="360" />
+        <meta-data
+            android:name="design_height_in_dp"
+            android:value="640" />
+
+        <activity android:name=".views.activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".views.activity.MainActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".views.activity.LoginActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".views.activity.RegisterActivity" />
+        <activity android:name=".views.activity.VerifyActivity" />
+        <activity android:name=".views.activity.RegisterSetActivity" />
+        <activity android:name=".views.activity.FindPWActivity" />
+        <activity android:name=".views.activity.FindPWSetActivity" />
+        <activity android:name=".views.activity.PreviewActivity" />
+        <activity android:name=".views.activity.MessageActivity" />
+        <activity android:name=".views.activity.PersonInfoActivity" />
+        <activity android:name=".views.activity.AlertNicknameActivity" />
+        <activity android:name=".views.activity.SettingActivity" />
+        <activity android:name=".views.activity.AttentionAndFansActivity" />
+        <activity android:name=".views.activity.UserHomeActivity" />
+        <activity android:name=".views.activity.WelfareActivity" />
+        <activity android:name=".views.activity.VipActivity" />
+        <activity android:name=".views.activity.AccountActivity" />
+        <activity android:name=".views.activity.HelpABiActivity" />
+        <activity android:name=".views.activity.ToUpACoinActivity" />
+        <activity android:name=".views.activity.ShitsActivity" />
+        <activity android:name=".views.activity.EditPWActivity" />
+        <activity android:name=".views.activity.SetPrivacyPWActivity" />
+        <activity android:name=".views.activity.VerifyPrivacyPWActivity" />
+        <activity
+            android:name=".views.activity.ReplyActivitry"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".views.activity.WorkDetailsActivity" />
+        <activity android:name=".views.activity.PictureViewerActivity" />
+        <activity
+            android:name=".views.activity.VideoPlayerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".views.activity.VideoPlayerActivity2"
+            android:process=":vitamio"
+            android:configChanges="orientation|keyboardHidden|screenLayout|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".views.activity.SearchActivity"
+            android:windowSoftInputMode="adjustResize|stateVisible" />
+        <activity
+            android:name=".views.activity.SearchResultActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".views.activity.ChooseDataListActivity" />
+        <activity android:name=".views.activity.RechargeStatusActivity" />
+        <activity android:name=".views.activity.CreditCardPayActivity" />
+        <activity android:name=".views.activity.EnterCreditCardPayActivity" />
+        <activity android:name=".views.activity.IncomeActivity" />
+        <activity android:name=".views.activity.IncomeWithdrawalActivity" />
+        <activity android:name=".views.activity.AddCardActivity" />
+        <activity android:name=".views.activity.WithdrawalStatusActivity" />
+        <activity android:name=".views.activity.AdvertisActivity" />
+        <activity android:name=".views.activity.CollectActivity" />
+        <activity android:name=".views.activity.BankListActivity" />
+        <activity android:name=".views.activity.MyInterestActivity" />
+        <activity android:name=".views.activity.InterestProjectActivity" />
+        <activity android:name=".views.activity.WebViewActivity" />
+        <activity android:name=".views.activity.H5Activity" />
+        <activity android:name=".views.activity.LookHeadPortraitsActivity" />
+        <activity android:name=".views.activity.SampleCameraActivity" />
+        <activity android:name=".views.activity.CropActivity" />
+        <activity android:name=".views.activity.PayActivity" />
+        <activity android:name=".views.activity.LanguageActivity" />
+        <activity android:name=".views.activity.RankActivity" />
+        <activity android:name=".views.activity.AboutActivity" />
+        <activity android:name=".views.activity.IncomeDetailActivity" />
+        <activity
+            android:name=".views.activity.ContributeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustUnspecified|stateHidden"
+            />
+        <activity android:name=".views.activity.PictureWorkActivity" />
+        <activity android:name=".views.activity.CreativeCenterActivity" />
+        <activity android:name=".views.activity.OriginalPlanActivity" />
+        <activity android:name=".views.activity.HistoryActivity" />
+        <activity android:name=".views.activity.VideoWorkActivity" />
+        <activity android:name=".views.activity.SaveProducSuccessActivity" />
+        <activity android:name=".views.activity.PictureViewer2Activity" />
+        <!-- 必须初始化 -->
+        <activity
+            android:name="io.vov.vitamio.activity.InitActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.kcx.acg.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+
+        <activity
+            android:name="com.donkingliang.imageselector.ImageSelectorActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.donkingliang.imageselector.PreviewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.donkingliang.imageselector.ClipImageActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <service
+            android:name="com.amazonaws.mobileconnectors.s3.transferutility.TransferService"
+            android:enabled="true" />
+    </application>
+
+</manifest>

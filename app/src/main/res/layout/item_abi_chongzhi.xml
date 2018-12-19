@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/shape_abi_bg_define">
+
+
+    <TextView
+        android:id="@+id/tv_recommend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/tag_recommend"
+        android:gravity="center"
+        android:text="@string/account_recommend"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="95dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+         />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_icon"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/tv_aCoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_333"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/account_ACoin"
+            android:textColor="@color/black_333"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_rewardACoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/pink_hint"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_rewardLotteryCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_rewardACoin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black_999"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_money"
+        android:layout_width="125dp"
+        android:layout_height="29dp"
+        android:layout_below="@id/tv_rewardLotteryCount"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/pink_hint"
+        android:background="@drawable/shape_abi_bg_chongzhi"
+        android:textSize="16sp" />
+
+
+    <ImageView
+        android:id="@+id/iv_abi_isChecked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/icon_vip_selected"
+        android:visibility="invisible" />
+</RelativeLayout>
+

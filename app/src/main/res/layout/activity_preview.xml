@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <com.monke.immerselayout.ImmerseLinearLayout
+        android:id="@+id/preview_immerse_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" />
+
+    <com.kcx.acg.views.view.TitleBarView
+        android:id="@+id/preview_back_titlebar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:text="@string/preview_title_msg"
+        app:back_src="@mipmap/icon_back" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:src="@color/gray_eee" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.scwang.smartrefresh.layout.SmartRefreshLayout
+                android:id="@+id/preview_smart_refresh_layout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fadingEdge="none"
+                android:fadingEdgeLength="0dp">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/preview_content_rv"
+                    android:overScrollMode="never"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fadingEdge="none"
+                    android:fadingEdgeLength="0dp" />
+
+            </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:elevation="1dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:translationZ="1dp">
+
+                <ImageView
+                    android:id="@+id/preview_like_iv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:scaleType="center"
+                    android:src="@drawable/selector_favorites_bg" />
+
+                <ImageView
+                    android:id="@+id/preview_jump_iv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:scaleType="center"
+                    android:src="@drawable/comment_icon" />
+
+                <ImageView
+                    android:id="@+id/preview_share_iv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:scaleType="center"
+                    android:src="@drawable/share_iocn" />
+
+                <LinearLayout
+                    android:id="@+id/preview_option_layout"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/pink_ff8"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/preview_option_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/abi"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/preview_option_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:duplicateParentState="true"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <!--<Button
+                    android:id="@+id/preview_option_btn"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/pink_ff8"
+                    android:drawableLeft="@mipmap/abi"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />-->
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.kcx.acg.views.view.LoadingErrorView
+            android:id="@+id/preview_loading_error"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

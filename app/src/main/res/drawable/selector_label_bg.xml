@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--&lt;!&ndash; 标签选中时的背景 &ndash;&gt;-->
+    <!--<item android:state_selected="true">-->
+        <!--<shape>-->
+            <!--<stroke android:width="2dp" android:color="#fb435b" />-->
+            <!--<corners android:radius="8dp" />-->
+            <!--<solid android:color="@android:color/white" />-->
+        <!--</shape>-->
+    <!--</item>-->
+    <!--&lt;!&ndash; 标签的正常背景 &ndash;&gt;-->
+    <!--<item>-->
+        <!--<shape>-->
+            <!--<stroke android:width="2dp" android:color="#656565" />-->
+            <!--<corners android:radius="8dp" />-->
+            <!--<solid android:color="@android:color/white" />-->
+        <!--</shape>-->
+    <!--</item>-->
+
+    <item android:drawable="@drawable/shape_blue_bg_5dp" android:state_enabled="true" android:state_selected="true"/>
+    <item android:drawable="@drawable/shape_blue_bg_5dp" android:state_enabled="true" android:state_pressed="true" />
+    <item android:drawable="@drawable/shape_blue_bg_5dp" android:state_checked="true" android:state_enabled="true" />
+    <item android:drawable="@drawable/shape_gray_eee_5dp_bg" />
+</selector>

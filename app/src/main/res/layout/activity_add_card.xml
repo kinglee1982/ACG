@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.monke.immerselayout.ImmerseRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_f5"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_head" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="@string/income_currentBank"
+                android:textColor="@color/black_333"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_chooseBank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"
+                android:text="@string/income_selectBank"
+                android:textColor="@color/blue_6bb"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="10dp"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="@string/income_cardNum"
+                android:textColor="@color/black_333"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_bankCard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"
+                android:hint="@string/income_cardNum_hint"
+                android:inputType="number"
+                android:textColor="@color/black_333"
+                android:textColorHint="@color/black_ccc"
+                android:background="@color/transparent"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="@string/income_name"
+                android:textColor="@color/black_333"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"
+                android:hint="@string/must"
+                android:textColor="@color/black_333"
+                android:textColorHint="@color/black_ccc"
+                android:background="@color/transparent"
+                android:textSize="14sp" />
+
+            <View
+                style="@style/line_horizontal_15dp"
+                android:layout_alignParentBottom="true"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="@string/income_fristName"
+                android:textColor="@color/black_333"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_lastName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"
+                android:hint="@string/must"
+                android:textColor="@color/black_333"
+                android:textColorHint="@color/black_ccc"
+                android:background="@color/transparent"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/income_addBank_hint"
+            android:textColor="@color/black_999"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_withdraw"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape_pink_bg_undefined_5dp"
+            android:enabled="false"
+            android:text="@string/income_addBank_btn"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</com.monke.immerselayout.ImmerseRelativeLayout>

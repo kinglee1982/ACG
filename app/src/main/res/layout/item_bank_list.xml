@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_bankName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv_icon"
+        android:layout_marginLeft="10dp"
+        android:text="测试银行"
+        android:textColor="@color/black_333"
+        android:textSize="15sp" />
+
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:background="@mipmap/icon_checked"
+        android:visibility="invisible"/>
+
+
+
+</RelativeLayout>

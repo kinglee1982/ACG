@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.monke.immerselayout.ImmerseLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_f5"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/layout_head" />
+
+        <RelativeLayout
+            android:id="@+id/rl_touxiang"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="@string/personInfo_changeTouxiang"
+                android:textColor="@color/black_333"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:src="@mipmap/icon_jiantou_right" />
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:circleimageview="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/iv_touxiang"
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/imageView1"
+                android:src="@mipmap/placehold_head"
+                circleimageview:civ_border_color="@android:color/white"
+                circleimageview:civ_border_overlay="false"
+                circleimageview:civ_border_width="0.5dp" />
+
+            <View style="@style/line" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="@string/personInfo_nickName"
+                android:textColor="@color/black_333"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/iv_jiantou1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:src="@mipmap/icon_jiantou_right" />
+
+            <TextView
+                android:id="@+id/tv_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/iv_jiantou1"
+                android:textColor="@color/black_666"
+                android:textSize="14sp" />
+
+            <View style="@style/line" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_account"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="@string/personInfo_account"
+                android:textColor="@color/black_333"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_areaCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/tv_phone"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/black_666"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="35dp"
+                android:text="15959513139"
+                android:textColor="@color/black_666"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</com.monke.immerselayout.ImmerseLinearLayout>

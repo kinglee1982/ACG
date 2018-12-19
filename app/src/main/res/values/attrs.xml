@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleImageView">
+        <!--设置边框的颜色，默认为黑色。-->
+        <attr name="civ_border_color" format="color" />
+        <!--设置边框是否覆盖在图片上，默认为false，即边框在图片外圈。-->
+        <attr name="civ_border_overlay" format="boolean" />
+        <!--设置图片的底色，默认透明-->
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <!-- 标题栏相关的自定义属性 -->
+    <declare-styleable name="mytitlebar">
+        <attr name="text" format="string"/>
+        <attr name="back_src" format="reference" />
+        <attr name="background_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="MyHeader">
+        <attr name="duration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="MyClassicsFooter">
+        <attr name="bg_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="searchedit">
+        <attr name="textColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+
+        <attr name="searchedit_imagewidth" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="RatioLayout">
+        <attr name="relative" format="enum">
+            <enum name="width" value="0"></enum>
+            <enum name="height" value="1"></enum>
+        </attr>
+        <attr name="picRatio" format="float"/>
+    </declare-styleable>
+    <!-- 输入框相关的自定义属性 -->
+    <declare-styleable name="ipboxtext">
+        <!-- 输入框的左侧文字 -->
+        <attr name="ipText" format="string"/>
+        <!-- 输入框的底字 -->
+        <attr name="hintText" format="string"/>
+        <!--是否需要显示红色星星-->
+        <attr name="isShowStar" format="boolean"/>
+        <!-- 是否需要显示右边文字-->
+        <attr name="showRight" format="boolean"/>
+        <!-- 右边的文字(如需要显示) -->
+        <attr name="rightText" format="string"/>
+        <!-- 是否需要显示底下的文字-->
+        <attr name="showBelow" format="boolean"/>
+        <!-- 底下的文字(如果需要显示) -->
+        <attr name="belowText" format="string"/>
+        <!-- 是否显示右边的ImageView -->
+        <attr name="showRightImageView" format="boolean"/>
+        <!-- 右边ImageView的图片资源 -->
+        <attr name="rightImageViewSrc" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="InputItemView">
+        <!-- 输入框的左侧文字 -->
+        <attr name="inputDdeclare" format="string"/>
+        <attr name="inputHint" format="string"/>
+        <attr name="inputShowArrow" format="boolean"/>
+        <attr name="inputShowText" format="boolean"/>
+        <attr name="inputRequired" format="boolean"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="CircularImage">
+        <attr name="border_width" format="dimension"/>
+        <attr name="border_color" format="color"/>
+    </declare-styleable>
+
+
+    <!--进度条-->
+    <declare-styleable name="CrowdProgress">
+        <attr name="showIndicator" format="boolean"/>
+        <attr name="size" format="integer"/>
+        <attr name="progressHeight" format="float"/>
+        <attr name="vertical_space" format="float"/>
+        <attr name="buttom_space" format="float"/>
+        <attr name="CrowdProgress_hintMiddle" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="EcoGallery">
+        <attr name="gravity" format="integer" />
+        <attr name="animationDuration" format="integer" />
+        <attr name="unselectedAlpha" format="float" />
+        <attr name="spacing" format="dimension" />
+    </declare-styleable>
+
+    <attr name="ecoGalleryStyle" format="reference" />
+
+    <declare-styleable name="CustomAbsSpinner">
+        <attr name="entries" format="reference" />
+    </declare-styleable>
+
+    <attr name="customAbsSpinnerStyle" format="reference" />
+
+</resources>

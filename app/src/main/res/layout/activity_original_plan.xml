@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink_ffe"
+    android:orientation="vertical">
+
+    <com.monke.immerselayout.ImmerseLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" />
+
+    <com.kcx.acg.views.view.TitleBarView
+        android:id="@+id/original_plan_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:back_src="@mipmap/icon_back"
+        app:text="@string/mine_original" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:background="@drawable/shape_white_bg_10dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ScrollView
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/original_plan_title1_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/original_plan_img_iv"
+                        android:text="@string/original_text_title_1"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_below="@+id/original_plan_title1_tv"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/shape_blue_cde_bg2" />
+
+                    <ImageView
+                        android:id="@+id/original_plan_img_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/yc_image_a" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:lineSpacingExtra="3dp"
+                    android:text="@string/original_text_content_1"
+                    android:textColor="@color/gray_66"
+                    android:textSize="14sp" />
+
+
+                <RelativeLayout
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        android:id="@+id/original_plan_title2_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/original_plan_img2_iv"
+                        android:text="@string/original_text_title_2"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_below="@+id/original_plan_title2_tv"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/shape_blue_cde_bg2" />
+
+                    <ImageView
+                        android:id="@+id/original_plan_img2_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/yc_image_b" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginTop="18dp"
+                    android:text="@string/original_text_content_2"
+                    android:textColor="@color/gray_66"
+                    android:textSize="14sp" />
+
+                <RelativeLayout
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        android:id="@+id/original_plan_title3_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/original_plan_img3_iv"
+                        android:text="@string/original_text_title_3"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_below="@+id/original_plan_title3_tv"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/shape_blue_cde_bg2" />
+
+                    <ImageView
+                        android:id="@+id/original_plan_img3_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/yc_image_c" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginTop="18dp"
+                    android:text="@string/original_text_content_3"
+                    android:textColor="@color/gray_66"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/original_upload_layout"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_pink_bg_5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/original_upload_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@mipmap/yc_icon_cloud" />
+
+            <TextView
+                android:id="@+id/original_upload_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/original_btn_msg1"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

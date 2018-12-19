@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_item_creditCard"
+    android:layout_width="match_parent"
+    android:layout_height="118dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:background="@drawable/shape_white_bg_5dp">
+
+
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="48dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_toRightOf="@id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="7dp"
+        android:textSize="14sp"
+        android:textColor="@color/black_333"
+        android:text="周 结论"/>
+
+
+    <TextView
+        android:id="@+id/tv_cardNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+        android:textSize="21sp"
+        android:textColor="@color/black_333"
+        android:text="****  **** **** 8888"/>
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:singleLine="true"
+        android:textSize="12sp"
+        android:textColor="@color/black_999"
+        android:text="账单地址：南山街道 微软科通大厦 微软科通大厦哒哒哒哒哒哒迭代"/>
+
+
+
+</RelativeLayout>

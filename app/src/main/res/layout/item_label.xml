@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.donkingliang.labels.LabelsView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/mLabelsView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        app:labelBackground="@drawable/selector_label_bg"
+        app:labelTextColor="@drawable/selector_label_text_color"
+        app:labelTextPaddingBottom="5dp"
+        app:labelTextPaddingLeft="15dp"
+        app:labelTextPaddingRight="15dp"
+        app:labelTextPaddingTop="5dp"
+        app:labelTextSize="13sp"
+        app:lineMargin="10dp"
+        app:maxSelect="10"
+        app:selectType="MULTI"
+        app:wordMargin="10dp"
+        android:visibility="gone"
+       />
+
+</LinearLayout>

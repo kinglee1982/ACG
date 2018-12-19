@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.monke.immerselayout.ImmerseLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <include
+        layout="@layout/layout_head"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black_333"
+        android:textSize="18sp"
+        android:text="什么是A币？"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black_666"
+        android:textSize="15sp"
+        android:text="• A币是NicoACG发行的虚拟货币；"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black_333"
+        android:textSize="18sp"
+        android:text="A币的用途？"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black_666"
+        android:textSize="15sp"
+        android:text="• A币可用于购买需要付费的作品，包括原创和非原创作品；"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black_333"
+        android:textSize="18sp"
+        android:text="如何获得A币？"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black_666"
+        android:textSize="15sp"
+        android:text="• 充值：通过付费充值可获得对应的A币；\n
+
+• 幸运抽奖：通过幸运抽奖可以获得A币；\n
+
+• 注册礼包：通过注册成功后的礼包获得A币；\n
+
+• 活动：通过不定期的活动获得A币；"/>
+
+
+
+
+</com.monke.immerselayout.ImmerseLinearLayout>

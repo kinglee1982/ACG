@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/shape_pink_bg4"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/browse_recomment_head_civ"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="3dp"
+                android:src="@mipmap/placehold_head" />
+
+            <ImageView
+                android:id="@+id/browse_recomment_vip_iv"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="3dp"
+                android:src="@mipmap/vip_icon" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/browse_recomment_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black_333"
+            android:textSize="12sp" />
+
+        <com.kcx.acg.views.view.MyStateButton
+            android:id="@+id/browse_recomment_follow_state_tv"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/browse_recomment_follow_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="26dp"
+                    android:background="@drawable/shape_pink_bg"
+                    android:padding="0dp"
+                    android:text="@string/follow_string"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:gravity="center">
+
+                <ProgressBar
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerInParent="true"
+                    android:indeterminateDrawable="@drawable/progress_drawable_white"
+                    android:indeterminateOnly="true"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </com.kcx.acg.views.view.MyStateButton>
+
+        <LinearLayout
+            android:id="@+id/browse_recomment_imgs_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

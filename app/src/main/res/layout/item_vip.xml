@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/shape_vip_define_bg">
+
+
+
+        <TextView
+            android:id="@+id/tv_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="0个月"
+            android:textColor="@color/black_333"
+            android:textSize="14sp" />
+        <View
+            android:id="@+id/line"
+            android:layout_below="@id/tv_month"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@mipmap/vip_line"
+            />
+
+        <TextView
+            android:id="@+id/tv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="0"
+            android:textColor="@color/pink_hint"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_month"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="32dp"
+            android:layout_toLeftOf="@id/tv_money"
+            android:text="¥"
+            android:textColor="@color/pink_hint"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tv_moneyPerMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_money"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="¥0/月"
+            android:textColor="@color/black_999"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tv_rewardLotteryCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_moneyPerMonth"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="赠0次抽奖"
+            android:textColor="@color/black_666"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/iv_isChecked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/icon_vip_selected"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/iv_isDiscount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@mipmap/icon_youhui" />
+    </RelativeLayout>
+
+
+

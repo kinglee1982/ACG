@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "922041720923",
+    "firebase_url": "https://nicoacg-app.firebaseio.com",
+    "project_id": "nicoacg-app",
+    "storage_bucket": "nicoacg-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922041720923:android:02bc8181914cb564",
+        "android_client_info": {
+          "package_name": "com.kcx.acg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922041720923-jbm9t66dm13dbqkaq6f7nrrcn9pqhbrb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kcx.acg",
+            "certificate_hash": "f9ba37e85405e6779967db80f57f1a19b8ff2579"
+          }
+        },
+        {
+          "client_id": "922041720923-atv6l52dr8to409q0e0ui1al25r76ms1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRcpxqtOiLGGZOu0C96f8-Dz_HI1yGbAU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922041720923-atv6l52dr8to409q0e0ui1al25r76ms1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "922041720923-e5lh08of78omgi3v1bg9hbfnn6oq10oe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.my.nicoacg"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

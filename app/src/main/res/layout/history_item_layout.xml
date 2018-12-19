@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/history_item_line_iv"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:visibility="gone"
+            android:src="@color/gray_f5" />
+        <TextView
+            android:id="@+id/history_item_day_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black_333"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="75dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/history_item_line_top_iv"
+                    android:layout_width="1dp"
+                    android:layout_weight="1"
+                    android:layout_height="0dp"
+                    android:src="@color/pink_ff8" />
+
+                <ImageView
+                    android:id="@+id/history_item_line_bottom_iv"
+                    android:layout_weight="1"
+                    android:layout_width="1dp"
+                    android:layout_height="0dp"
+                    android:src="@color/pink_ff8" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/history_item_cricle_iv"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/shape_cricle_pink_bg" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/history_item_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="100dp"
+            android:textColor="@color/gray_999"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/history_item_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="20dp"
+            android:singleLine="true"
+            android:textColor="@color/black_666"
+            android:textSize="15sp" />
+    </RelativeLayout>
+</RelativeLayout>

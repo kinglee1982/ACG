@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.monke.immerselayout.ImmerseLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/layout_head"
+        />
+
+    <EditText
+        android:id="@+id/et_setNewPW"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:inputType="textPassword"
+        android:textSize="14sp"
+        android:hint="@string/findPWSet_setNewPW"
+        android:textColorHint="@color/black_ccc"
+        android:textColor="@color/black_333"
+        android:background="@color/transparent"
+        />
+    <View
+        style="@style/line_53dp"
+        />
+
+    <EditText
+        android:id="@+id/et_setNewPWAgent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:inputType="textPassword"
+        android:textSize="14sp"
+        android:hint="@string/findPWSet_setNewPWAgent"
+        android:textColorHint="@color/black_ccc"
+        android:textColor="@color/black_333"
+        android:background="@color/transparent"
+        />
+    <View
+        style="@style/line_53dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_hint"
+        android:layout_below="@id/et_invitationCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:textColor="@color/pink_hint"
+        android:visibility="invisible"
+        android:text="@string/findPWSet_errorHint"/>
+
+    <Button
+        android:id="@+id/btn_completeSet"
+        android:layout_below="@id/tv_hint"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:enabled="false"
+        android:text="@string/findPWSet_completeSet"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:background="@drawable/shape_pink_bg_undefined_5dp"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+</com.monke.immerselayout.ImmerseLinearLayout>

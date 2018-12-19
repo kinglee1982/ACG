@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingRight="15dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/search_result_user_head_iv"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/placehold_head" />
+            <ImageView
+                android:id="@+id/search_result_user_vip_iv"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="3dp"
+                android:src="@mipmap/vip_icon" />
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="13dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/search_result_user_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="制服"
+                android:textColor="@color/black_333"
+                android:textSize="14sp" />
+
+            <com.kcx.acg.views.view.MyStateButton
+                android:id="@+id/search_result_user_follow_state_tv"
+                android:layout_width="60dp"
+                android:layout_height="26dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/search_result_user_follow_tv"
+                        android:layout_width="60dp"
+                        android:layout_height="26dp"
+                        android:background="@drawable/shape_pink_bg"
+                        android:gravity="center"
+                        android:text="@string/follow_string"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:gravity="center">
+
+                    <ProgressBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:indeterminateDrawable="@drawable/progress_drawable_white"
+                        android:indeterminateOnly="true"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+            </com.kcx.acg.views.view.MyStateButton>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/search_result_user_line_iv"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="59dp"
+        android:src="@color/gray_eee" />
+</LinearLayout>

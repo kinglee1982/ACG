@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="15dp">
+
+    <ImageView
+        android:id="@+id/work_details_head_back_iv"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerInside"
+        android:src="@mipmap/icon_back"
+        android:visibility="gone" />
+
+    <com.kcx.acg.views.view.TitleBarView
+        android:id="@+id/work_details_head_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:text="@string/work_details_title_msg" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:src="@color/gray_eee" />
+
+    <LinearLayout
+        android:id="@+id/work_details_head_linelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:visibility="visible">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/work_details_head_iv"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:src="@mipmap/placehold_head" />
+
+            <ImageView
+                android:id="@+id/work_details_head_vip_iv"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:visibility="gone"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="3dp"
+                android:src="@mipmap/vip_icon" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/work_details_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/gray_33"
+            android:textSize="13sp" />
+
+        <com.kcx.acg.views.view.MyStateButton
+            android:id="@+id/work_details_follow_state_btn"
+            android:layout_width="60dp"
+            android:layout_height="26dp"
+            android:layout_marginRight="2dp">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/work_details_follow_btn"
+                    android:layout_width="60dp"
+                    android:layout_height="26dp"
+                    android:background="@drawable/shape_pink_bg"
+                    android:padding="0dp"
+                    android:text="@string/follow_string"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:gravity="center">
+
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:indeterminateDrawable="@drawable/progress_drawable_white"
+                    android:indeterminateOnly="true"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+        </com.kcx.acg.views.view.MyStateButton>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/work_details_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="left"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:lineSpacingExtra="1dp"
+        android:textColor="@color/black_333"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/work_details_user_id_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:paddingLeft="15dp"
+        android:textColor="@color/gray_999"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/work_details_txt_tv"
+        android:layout_width="match_parent"
+        android:lineSpacingMultiplier="1.3"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/gray_33"
+        android:textSize="14sp" />
+</LinearLayout>

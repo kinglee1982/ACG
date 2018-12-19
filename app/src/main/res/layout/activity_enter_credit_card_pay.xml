@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.monke.immerselayout.ImmerseRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_f5">
+
+        <include
+            android:id="@+id/head"
+            layout="@layout/layout_head" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/head"
+            android:scrollbars="none">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="20dp"
+                    android:text="账户信息"
+                    android:textColor="@color/black_999"
+                    android:textSize="14sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:text="卡号"
+                        android:textColor="@color/black_333"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_i"
+                        android:layout_width="48dp"
+                        android:layout_height="26dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:background="@mipmap/ic_launcher" />
+
+                    <EditText
+                        android:id="@+id/et_cardNum"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="120dp"
+                        android:layout_toLeftOf="@id/iv_i"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:hint="必填"
+                        android:textColor="@color/black_333"
+                        android:textColorHint="@color/black_ccc"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:text="VISA信用卡支付采用高安全度的3D验证，请放心使用。"
+                    android:textColor="@color/black_999"
+                    android:textSize="11sp" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:id="@+id/tv_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:text="到期日期"
+                        android:textColor="@color/black_333"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/tv_date"
+                        android:background="@mipmap/icon_query" />
+
+                    <EditText
+                        android:id="@+id/et_month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:hint="MM"
+                        android:textColor="@color/black_333"
+                        android:textColorHint="@color/black_ccc"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_huaxian"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toRightOf="@id/et_month"
+                        android:gravity="center_vertical"
+                        android:text="/"
+                        android:textColor="@color/black_999" />
+
+                    <EditText
+                        android:id="@+id/et_year"
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/tv_huaxian"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:hint="YYYY"
+                        android:textColor="@color/black_333"
+                        android:textColorHint="@color/black_ccc"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <View style="@style/line_horizontal_15dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:id="@+id/tv_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:text="安全码"
+                        android:textColor="@color/black_333"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/tv_code"
+                        android:background="@mipmap/icon_query" />
+
+                    <EditText
+                        android:id="@+id/et_securityCode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="120dp"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:hint="安全码"
+                        android:textColor="@color/black_333"
+                        android:textColorHint="@color/black_ccc"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:text="名字"
+                        android:textColor="@color/black_333"
+                        android:textSize="14sp" />
+
+
+                    <EditText
+                        android:id="@+id/et_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="120dp"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:hint="必填"
+                        android:textColor="@color/black_333"
+                        android:textColorHint="@color/black_ccc"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+                <View style="@style/line_horizontal_15dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:text="姓氏"
+                        android:textColor="@color/black_333"
+                        android:textSize="14sp" />
+
+
+                    <EditText
+                        android:id="@+id/et_familyName"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="120dp"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:hint="必填"
+                        android:textColor="@color/black_333"
+                        android:textColorHint="@color/black_ccc"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:text="账单寄送地址"
+                    android:textColor="@color/black_999"
+                    android:textSize="14sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:text="街道"
+                        android:textColor="@color/black_333"
+                        android:textSize="14sp" />
+
+
+                    <EditText
+                        android:id="@+id/et_street1"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="120dp"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:hint="必填"
+                        android:textColor="@color/black_333"
+                        android:textColorHint="@color/black_ccc"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+                <View style="@style/line_horizontal_15dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:text="街道"
+                        android:textColor="@color/black_333"
+                        android:textSize="14sp" />
+
+
+                    <EditText
+                        android:id="@+id/et_street2"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="120dp"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:hint="选填"
+                        android:textColor="@color/black_333"
+                        android:textColorHint="@color/black_ccc"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+                <View style="@style/line_horizontal_15dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:text="区"
+                        android:textColor="@color/black_333"
+                        android:textSize="14sp" />
+
+
+                    <EditText
+                        android:id="@+id/et_district"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="120dp"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:hint="必填"
+                        android:textColor="@color/black_333"
+                        android:textColorHint="@color/black_ccc"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+                <View style="@style/line_horizontal_15dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:text="市/县"
+                        android:textColor="@color/black_333"
+                        android:textSize="14sp" />
+
+
+                    <EditText
+                        android:id="@+id/et_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+
+                        android:layout_marginLeft="120dp"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:hint="必填"
+                        android:textColor="@color/black_333"
+                        android:textColorHint="@color/black_ccc"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+                <View style="@style/line_horizontal_15dp" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_province"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:text="省份"
+                        android:textColor="@color/black_333"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:id="@+id/tv_province"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="120dp"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:hint="必填"
+                        android:textColor="@color/black_333"
+                        android:textColorHint="@color/black_ccc"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:layout_centerVertical="true"
+                        android:background="@mipmap/icon_jiantou_right"/>
+
+                </RelativeLayout>
+
+                <View style="@style/line_horizontal_15dp" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_country"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:text="国家/地区"
+                        android:textColor="@color/black_333"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:id="@+id/tv_country"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="120dp"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:hint="必填"
+                        android:textColor="@color/black_333"
+                        android:textColorHint="@color/black_ccc"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:layout_centerVertical="true"
+                        android:background="@mipmap/icon_jiantou_right"/>
+
+                </RelativeLayout>
+
+                <View style="@style/line_horizontal_15dp"
+                   />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:text="邮政编码"
+                        android:textColor="@color/black_333"
+                        android:textSize="14sp" />
+
+
+                    <EditText
+                        android:id="@+id/et_postalCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="120dp"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:hint="必填"
+                        android:textColor="@color/black_333"
+                        android:textColorHint="@color/black_ccc"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <View style="@style/line_horizontal_15dp" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:id="@+id/tv_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:text="电话号码"
+                        android:textColor="@color/black_333"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_areaCode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="120dp"
+                        android:gravity="center_vertical"
+                        android:text="+86"
+                        android:textSize="14sp"
+                        android:textColor="@color/blue_6bb"
+                        />
+
+                    <View
+                        android:id="@+id/view_vertical"
+                        style="@style/line_vertical_15dp"
+                        android:layout_toRightOf="@id/tv_areaCode"
+                        android:layout_marginLeft="5dp"
+                       />
+
+
+                    <EditText
+                        android:id="@+id/et_phone"
+                        android:layout_toRightOf="@id/view_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:hint="必填"
+                        android:textColor="@color/black_333"
+                        android:textColorHint="@color/black_ccc"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/btn_pay"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:text="确认支付"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/shape_pink_bg_undefined_5dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+
+</com.monke.immerselayout.ImmerseRelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/img_place_holder_bg" />
+            <corners android:radius="5dp" />
+        </shape>
+    </item>
+    <item
+        android:bottom="20dp"
+        android:drawable="@drawable/placeholderfigure"
+        android:gravity="center"
+        android:left="20dp"
+        android:right="20dp"
+        android:top="20dp" />
+</layer-list>

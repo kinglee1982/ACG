@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name" translatable="false">NicoACG</string>
+	<string name="please_input_privacy_protection" translatable="false">請輸入原始密碼</string>
+	<string name="pwd_input_privacy_protection" translatable="false">請輸入隱私密碼</string>
+	<string name="pwd_input_again_exit" translatable="false">再按一次退出</string>
+	<string name="pwd_input_error_msg" translatable="false">您已輸錯%1$d次，還有%2$d次機會</string>
+	<string name="del" translatable="false">删除</string>
+	<string name="browse_string" translatable="false">發現</string>
+	<string name="watch_string" translatable="false">關注</string>
+	<string name="follow_string" translatable="false">+關注</string>
+	<string name="mine" translatable="false">我的</string>
+	<string name="collect" translatable="false">收藏</string>
+	<string name="watch_interest_title_msg" translatable="false">我的興趣</string>
+	<string name="preview_comment_hint">評論區由我來守護…</string>
+	<string name="foot_no_more_msg">沒有了哦！~</string>
+	<string name="foot_refresh_pulling_msg">上拉加載更多</string>
+	<string name="foot_refresh_release_msg">釋放立即加載</string>
+	<string name="foot_refresh_loading_msg">正在加載</string>
+	<string name="foot_refresh_refreshing_msg">正在重繪</string>
+	<string name="foot_refresh_finish_msg">加載完成</string>
+	<string name="foot_refresh_failed_msg">加載失敗</string>
+	<string name="home_first_page_toast_msg" translatable="false">前面沒有了，往後滑吧</string>
+	<string name="home_work_removed_msg" translatable="false">該作品已下架！</string>
+	<string name="send_msg">發送</string>
+	<string name="account_disable_1">帳號禁言中，無法進行回復！</string>
+	<string name="account_disable_2">帳號封停中，無法觀看作品！</string>
+	<string name="reply_title_msg">%1$s條回復</string>
+	<string name="reply_list_head_title_msg">全部回復</string>
+	<string name="favorited_btn_msg">已收藏</string>
+	<string name="favorit_btn_msg" translatable="false">收藏</string>
+	<string name="reply_btn_msg" translatable="false">評論</string>
+	<string name="forward_btn_msg" translatable="false">分享</string>
+	<string name="work_details_waring_msg" translatable="false">本站內容均來源於用戶分享，如有不當內容請聯繫我們。</string>
+	<string name="dialog_freeze_coin_title_msg" translatable="false">VIP每日50次免費特權已用完</string>
+	<string name="dialog_freeze_coin_txt_msg" translatable="false">A幣被凍結</string>
+	<string name="dialog_freeze_coin_unused_msg" translatable="false">A幣不足，立即充值</string>
+	<string name="dialog_freeze_coin_unused_msg2" translatable="false">A幣不足，首充得雙倍A幣</string>
+	<string name="dialog_open_vip_msg" translatable="false">開通VIP免費觀看</string>
+	<string name="dialog_open_vip_msg2" translatable="false">開通VIP立享7.8折購買特權</string>
+	<string name="dialog_open_vip_msg3" translatable="false">再過10天VIP免費觀看</string>
+	<string name="dialog_be_free_msg" translatable="false">再過15天免費看，提醒我</string>
+	<string name="dialog_can_not_buy_msg" translatable="false">無法使用A幣購買</string>
+	<string name="home_preview_works_count_msg" translatable="false">圖片%1$d張/視頻%2$d個</string>
+	<string name="home_preview_works_count_msg2" translatable="false">圖片%1$d張</string>
+	<string name="preview_login_msg" translatable="false">登入觀看</string>
+	<string name="preview_watch_msg" translatable="false">立即觀看</string>
+	<string name="comment_count_msg" translatable="false">%1$d條評論</string>
+	<string name="comment_reply_count_msg" translatable="false">%1$d條回復</string>
+	<string name="comment_no_reply_msg" translatable="false">回復</string>
+	<string name="comment_reply_hint_msg" translatable="false">回復&#160;%1$s:</string>
+	<string name="comment_dirver_msg" translatable="false">司機</string>
+	<string name="comment_passenger_msg" translatable="false">乘客</string>
+	<string name="work_details_comment_nothing_msg" translatable="false">評論區無人守護</string>
+	<string name="work_details_toast_msg" translatable="false">正在使用VIP特權免費觀看</string>
+	<string name="preview_like_msg" translatable="false">贊</string>
+	<string name="work_details_title_msg" translatable="false">作品詳情</string>
+	<string name="preview_title_msg" translatable="false">作品預覽</string>
+	<string name="buy_work_dialog_title_msg" translatable="false">購買該作品</string>
+	<string name="buy_work_dialog_balance_msg" translatable="false">餘額：%1$d</string>
+	<string name="buy_work_dialog_prompt_msg" translatable="false">分享到QQ群/微信群&#160;獲取免費A幣&#160;&#160;></string>
+	<string name="pic_hdv_toast_msg" translatable="false">圖片較大，請耐心等待</string>
+	<string name="buy_of_coin_dialog_title_msg" translatable="false">VIP每日50次免費特權已用完</string>
+	<string name="buy_of_coin_dialog_balance_msg" translatable="false">A幣餘額：%1$s</string>
+	<string name="buy_of_coin_dialog_btn_msg" translatable="false">使用%1$sA幣購買</string>
+	<string name="banned_title_msg" translatable="false">購買該作品</string>
+	<string name="banned_waring_msg" translatable="false">該帳號被封</string>
+	<string name="viewer_msg">高清模式</string>
+	<string name="video_player_end_msg">播放下一個</string>
+	<string name="video_player_re_play_msg" translatable="false">重播</string>
+	<string name="video_player_first_msg">播放第一個</string>
+	<string name="video_buffing_msg">正在緩衝…</string>
+	<string name="search_msg">蒐索</string>
+	<string name="cancel_msg">取消</string>
+	<string name="confirm_msg">確定</string>
+	<string name="search_hint_msg">蒐索興趣、作品、na號、用戶</string>
+	<string name="search_hot_key_msg">熱門搜索</string>
+	<string name="search_history_msg">蒐索歷史</string>
+	<string name="search_clear_msg">清空</string>
+	<string name="search_of_keyword_msg">蒐索“%1$s”相關內容</string>
+	<string name="search_result_all_msg" translatable="false">綜合</string>
+	<string name="search_result_hobby_msg">興趣</string>
+	<string name="search_result_users_msg">用戶</string>
+	<string name="search_result_with_hobby_msg">相關興趣</string>
+	<string name="search_result_with_users_msg">相關用戶</string>
+	<string name="search_result_with_works_msg">相關作品</string>
+	<string name="more_msg">更多</string>
+	<string name="clear_history_title_msg">確定清空蒐索歷史？</string>
+	<string name="clear_history_waring_msg">清空後無法恢復？</string>
+	<string name="not_found_search_string_msg">沒有相關內容哦！~\n換個關鍵字再試試吧？</string>
+	<string name="browse_recommend_msg">達人推薦</string>
+	<string name="browse_hot_msg">熱門興趣</string>
+	<string name="browse_follow_msg">+關注</string>
+	<string name="browse_followed_msg">已關注</string>
+	<string name="dialog_unfollow_msg">取消關注</string>
+	<string name="dialog_unfollow_confirm_msg">確定不再關注此人？</string>
+	<string name="share_msg">分享</string>
+	<string name="share_title_right_msg">推廣賺現金</string>
+	<string name="share_wechat_msg">微信</string>
+	<string name="share_friend_msg">朋友圈</string>
+	<string name="share_qq_msg">QQ</string>
+	<string name="share_qzone_msg">QQ空間</string>
+	<string name="share_weibo_msg">微博</string>
+	<string name="share_line_msg">LINE</string>
+	<string name="share_twwiter_msg">Twwiter</string>
+	<string name="share_facebook_msg">Facebook</string>
+	<string name="share_messenger_msg">Messenger</string>
+	<string name="share_whatsapp_msg">Whatsapp</string>
+	<string name="share_link_msg">複製連結</string>
+	<string name="share_more_msg">更多</string>
+	<string name="loading_msg">正在拼命加載中…</string>
+	<string name="not_login_title_msg">許可權不足</string>
+	<string name="not_login_waring_msg">遊客無法使用高清模式，請先登錄</string>
+	<string name="not_login_btn_msg1">登入/注册</string>
+	<string name="not_login_open_vip_waring_msg">開通VIP後即可使用高清模式</string>
+	<string name="not_login_open_vip_btn_msg">開通VIP獲得該特權</string>
+	<string name="not_login_btn_msg2">稍後再說</string>
+	<string name="play_video_3G_msg">正在使用流量播放</string>
+	<string name="back_toast">再按一次退出程式</string>
+	<string name="copy_na">na號已複製</string>
+	<string name="new_version_title">發現新版本</string>
+	<string name="new_version_update_btn">馬上體驗</string>
+	<string name="new_version_cancel_btn">殘忍拒絕</string>
+	<string name="load_error_msg">請檢查網絡後重試</string>
+	<string name="net_error">網絡异常，請檢查您的網絡狀態</string>
+	<string name="re_load_msg" translatable="false">重新加載</string>
+	<string name="nodata">沒有了哦</string>
+	<string name="must">必填</string>
+	<string name="unlogin_attention">還沒有登錄哦！~</string>
+	<string name="empty_data_detail">還沒產生任何明細哦！~</string>
+	<string name="empty_data_attention">還沒有內容哦！~</string>
+	<string name="empty_data_collect">還沒有收藏內容哦！~</string>
+	<string name="empty_data_attention_btn">去逛逛</string>
+	<string name="empty_attention_hint">你還沒有關注任何人哦！~</string>
+	<string name="empty_fans_hint">還沒有人關注你哦！~</string>
+	<string name="empty_userHome_hint">TA還沒有發佈作品哦！~</string>
+	<string name="forgetPW">忘記密碼？</string>
+	<string name="hint_phoneNum">請輸入手機號</string>
+	<string name="hint_pw">請輸入密碼</string>
+	<string name="login">登入</string>
+	<string name="noAcount">沒有帳號？</string>
+	<string name="register">免費註冊</string>
+	<string name="title_register" translatable="false">注册</string>
+	<string name="hint_code">請輸入右邊數位</string>
+	<string name="sendSmsCode">發送驗證碼</string>
+	<string name="register_hint_text1" translatable="false">注册即表示您已閱讀並同意</string>
+	<string name="register_protocol">《用戶協議》</string>
+	<string name="register_errorStr">驗證碼錯誤！</string>
+	<string name="register_weclome">歡迎來到NicoACG</string>
+	<string name="mine_login_hint">登入解鎖更多精彩內容</string>
+	<string name="mine_registerAndLogin">登入/注册</string>
+	<string name="mine_signIn_hint">今日已簽到</string>
+	<string name="mine_signIn">每日簽到</string>
+	<string name="mine_beSignIn">已簽到</string>
+	<string name="mine_luck">幸運抽獎</string>
+	<string name="mine_welfare">福利活動</string>
+	<string name="mine_account">帳戶</string>
+	<string name="mine_account_frist">首充雙倍A幣</string>
+	<string name="mine_earnings">收益</string>
+	<string name="mine_collect">收藏</string>
+	<string name="mine_set">設定</string>
+	<string name="mine_vip_status_unOpen">未開通</string>
+	<string name="mine_vip_status_open">到期</string>
+	<string name="mine_vip_status_beOpen">已過期</string>
+	<string name="mine_signIn_text1">獲得1次抽獎機會</string>
+	<string name="mine_signIn_text2">去抽獎</string>
+	<string name="mine_signIn_text3">稍後抽獎</string>
+	<string name="mine_compile">編輯</string>
+	<string name="chooseDataList_title">你的國家</string>
+	<string name="chooseDataList_select">蒐索</string>
+	<string name="verify_title">驗證</string>
+	<string name="verify_toRegister">進行驗證</string>
+	<string name="verify_phoneHint">提現需要你的手機號</string>
+	<string name="verify_errorStr">驗證碼錯誤</string>
+	<string name="verify_next">下一步</string>
+	<string name="countTimer_timeHint">s後可重新發送驗證碼</string>
+	<string name="countTimer_after">後</string>
+	<string name="countTimer_sendCode">發送驗證碼</string>
+	<string name="registerSet_title">設置密碼</string>
+	<string name="registerSet_errorStr">密碼長度為6-12比特</string>
+	<string name="registerSet_registerStr" translatable="false">注册成功</string>
+	<string name="registerSet_setPW">請輸入設置密碼（6-12比特）</string>
+	<string name="registerSet_setPWAgent">請再次確認密碼</string>
+	<string name="registerSet_nickname" translatable="false">昵稱</string>
+	<string name="registerSet_invitationCode">填邀請碼得禮包（選填）</string>
+	<string name="registerSet_errorHint">兩次輸入的密碼不一致</string>
+	<string name="registerSet_completeRegistert">完成注册</string>
+	<string name="findPWSet_title" translatable="false">重置密碼</string>
+	<string name="findPWSet_setNewPW">請輸入設置密碼（6-12比特）</string>
+	<string name="findPWSet_setNewPWAgent">請再次確認密碼</string>
+	<string name="findPWSet_errorHint">兩次輸入的密碼不一致</string>
+	<string name="findPWSet_completeSet">完成設定</string>
+	<string name="withdrawalStatus_status1">提現申請已提交</string>
+	<string name="withdrawalStatus_status2">到賬情况視銀行速度而定，請注意查收</string>
+	<string name="withdrawalStatus_confirm">確定</string>
+	<string name="findPW_title">找回密碼</string>
+	<string name="findPW_errorStr">驗證碼錯誤！</string>
+	<string name="findPW_getSms">獲取驗證碼</string>
+	<string name="personInfo_title">個人資料</string>
+	<string name="personInfo_changeTouxiang">修改頭像</string>
+	<string name="personInfo_nickName" translatable="false">昵稱</string>
+	<string name="personInfo_account">帳號</string>
+	<string name="personInfo_hint1">無存取權限</string>
+	<string name="personInfo_hint2">您可以在“設定-應用管理”中啟用訪問。</string>
+	<string name="personInfo_hint3">設定</string>
+	<string name="personInfo_hint4">取消</string>
+	<string name="alertNickname_title">修改昵稱</string>
+	<string name="alertNickname_save">保存</string>
+	<string name="alertNickname_hint" translatable="false">昵稱不能為空</string>
+	<string name="headPortraits_noImagve">圖片沒掃描到</string>
+	<string name="headPortraits_one">張</string>
+	<string name="headPortraits_idCardStr">暫無外部存儲</string>
+	<string name="headPortraits_progressStr">正在加載…</string>
+	<string name="headPortraits_title">圖片</string>
+	<string name="headPortraits_allPicture">所有圖片</string>
+	<string name="headPortraits_use">使用</string>
+	<string name="headPortraits_img">頭像</string>
+	<string name="vip_text1">VIP套餐</string>
+	<string name="vip_openVip" translatable="false">開通VIP</string>
+	<string name="vip_unOpenVip" translatable="false">開通VIP，發現新世界</string>
+	<string name="vip_beOpenVip">立即續費</string>
+	<string name="vip_oldOpenVip">VIP已過期</string>
+	<string name="vip_text2">VIP特權</string>
+	<string name="vip_content1">免費觀看</string>
+	<string name="vip_content2">高清特權</string>
+	<string name="vip_des1">每天50個付費作品免費看</string>
+	<string name="vip_des2" translatable="false">瀏覽圖片時，可開啟養眼高清模式</string>
+	<string name="vip_month">個月</string>
+	<string name="vip_month2">月</string>
+	<string name="vip_send">贈</string>
+	<string name="vip_lottery">次抽獎</string>
+	<string name="vip_success">充值成功</string>
+	<string name="also">還有</string>
+	<string name="day">天</string>
+	<string name="account_title">帳戶</string>
+	<string name="account_btn1">充值A幣</string>
+	<string name="account_btn2">首充享雙倍A幣福利</string>
+	<string name="account_money">A幣餘額</string>
+	<string name="account_who">什麼是A幣？</string>
+	<string name="account_title2">A幣充值</string>
+	<string name="account_commit">確認充值</string>
+	<string name="account_explain">充值說明：\n
+1.由於蘋果政策限制，Android端充值的A幣無法在iOS設備上使用。\n
+2.充值未完成時，請不要切換帳號或者卸載APP，否則可能出現充值不到賬的情况。\n
+3.首充贈幣活動僅對首次充值A幣用戶有效，活動期間，用戶如出現違反國家法律法規行為或以不正常手段參與，本平臺有權追究其法律責任。</string>
+	<string name="account_recommend">推薦</string>
+	<string name="account_ACoin">A幣</string>
+	<string name="account_send">送</string>
+	<string name="account_lattery">次抽獎</string>
+	<string name="bottomDialogUtil_Pay_title">選擇支付方式</string>
+	<string name="bottomDialogUtil_Pay_less">餘額不足</string>
+	<string name="bottomDialogUtil_Pay_residue">剩餘</string>
+	<string name="bottomDialogUtil_Pay_banned">封禁中，無法使用</string>
+	<string name="bottomDialogUtil_Pay_money" translatable="false">支付金額</string>
+	<string name="bottomDialogUtil_Pay_aliPay" translatable="false">支付寶</string>
+	<string name="bottomDialogUtil_Pay_wexin">微信</string>
+	<string name="income_title">收益</string>
+	<string name="income_detail">明細</string>
+	<string name="income_new">新增</string>
+	<string name="income_btn">收益提現</string>
+	<string name="income_btn2">無法提現及獲得收益</string>
+	<string name="income_money">餘額</string>
+	<string name="income_generalize">推廣賺現金</string>
+	<string name="income_whoEarings">什麼是收益？</string>
+	<string name="income_detail_title">收益明細</string>
+	<string name="income_all">累計收益</string>
+	<string name="income_weekIncome">本周收益</string>
+	<string name="income_monthIncome">本月收益</string>
+	<string name="income_totalIncome">歷史總收益</string>
+	<string name="income_addBank">添加銀行卡</string>
+	<string name="income_no">無法提現</string>
+	<string name="income_hint1">輸入金額超過可提現金額</string>
+	<string name="income_hint2">輸入金額需為</string>
+	<string name="income_hint3">的整數倍，最小</string>
+	<string name="income_hint4">扣除</string>
+	<string name="income_hint5">手續費</string>
+	<string name="income_hint6">費率</string>
+	<string name="income_toBankCard">到賬銀行卡</string>
+	<string name="income_toMoney">提現金額</string>
+	<string name="income_toHeightMoney" translatable="false">最高可提現</string>
+	<string name="income_allMoney">全部提現</string>
+	<string name="income_withdraw">提現</string>
+	<string name="income_selectBank">請選擇銀行</string>
+	<string name="income_selectBank2">選擇銀行</string>
+	<string name="income_currentBank">所屬銀行</string>
+	<string name="income_cardNum">卡號</string>
+	<string name="income_cardNum_hint">請輸入卡號</string>
+	<string name="income_name">名字</string>
+	<string name="income_fristName">姓氏</string>
+	<string name="income_addBank_hint">請確保資訊填寫正確，以免造成不必要的損失。</string>
+	<string name="income_addBank_btn">確認添加</string>
+	<string name="income_toBankMoney">選擇到賬銀行卡</string>
+	<string name="income_del">删除</string>
+	<string name="income_del_bank">確定删除該銀行卡？</string>
+	<string name="attentionAndFans_attention">關注</string>
+	<string name="attentionAndFans_fans">粉絲</string>
+	<string name="attentionAndFans_hint1">確定不再關注此人？</string>
+	<string name="attentionAndFans_hint2">取消關注？</string>
+	<string name="attentionAndFans_hint3">取消</string>
+	<string name="addAttention">+關注</string>
+	<string name="beAttention">已關注</string>
+	<string name="setting_title">設定</string>
+	<string name="setting_dialog_title">確定清除緩存？</string>
+	<string name="setting_dialog_ok">確定</string>
+	<string name="setting_dialog_no">取消</string>
+	<string name="setting_clean_success">清除成功！</string>
+	<string name="setting_privacyPw">隱私保護</string>
+	<string name="setting_privacyHint">開啟後，每次打開/切換到App需要輸入隱私密碼。</string>
+	<string name="setting_editPrivacyPW">修改隱私密碼</string>
+	<string name="setting_cleanCache">清除緩存</string>
+	<string name="setting_shits">我要吐槽</string>
+	<string name="setting_alertPW">修改登入密碼</string>
+	<string name="setting_language">設置語言</string>
+	<string name="setting_exit">登出</string>
+	<string name="setting_setPrivacyPW">設定隱私密碼</string>
+	<string name="setting_setNewPrivacyPW">請輸入新的隱私密碼</string>
+	<string name="setting_setAgentPrivacyPW">再次輸入密碼</string>
+	<string name="setting_setPrivacyPW_success">隱私密碼修改成功</string>
+	<string name="setting_setPrivacyPW_err">兩次密碼輸入不一致</string>
+	<string name="setting_inputPrivacyPW">請輸入隱私密碼</string>
+	<string name="setting_inputPrivacyPW_hint1">密碼錯誤，還有</string>
+	<string name="setting_inputPrivacyPW_hint2">次機會</string>
+	<string name="setting_shits_result">已接收您的迴響</string>
+	<string name="setting_shits_hint">盡情的吐槽吧，我們會認真看完的！</string>
+	<string name="setting_shits_send">發送</string>
+	<string name="setting_et_pw">修改密碼</string>
+	<string name="setting_input_oldPw">請輸入舊密碼</string>
+	<string name="setting_input_newPw">請輸入新密碼</string>
+	<string name="setting_input_agentPw">請再次確認新密碼</string>
+	<string name="setting_etPw_hint">兩次輸入的密碼不一致</string>
+	<string name="setting_etPw_complete">完成</string>
+	<string name="setting_change_language_title">切換語言</string>
+	<string name="attention_myInterest">我的興趣</string>
+	<string name="attention_all">全部</string>
+	<string name="attention_news" translatable="false">最新動態</string>
+	<string name="isUnShelved" translatable="false">作品已下架</string>
+	<string name="lottery">幸運抽獎</string>
+	<string name="welfare">推廣賺現金</string>
+	<string name="commonUse">通用說明</string>
+	<string name="userAgreement">使用者協定</string>
+	<string name="format_data_advertis">廣告</string>
+	<string name="format_data_after">剛剛</string>
+	<string name="format_data_minute">分鐘前</string>
+	<string name="format_data_hour">小時前</string>
+	<string name="format_data_yestoday" translatable="false">昨天</string>
+	<string name="format_data_day">天前</string>
+	<string name="format_data_month">月前</string>
+	<string name="format_data_year">年前</string>
+	<string name="splash_text">肥&#160;&#160;宅&#160;&#160;快&#160;&#160;樂&#160;&#160;站</string>
+	<string name="setting_language_zh_cn" translatable="false">简体中文</string>
+	<string name="setting_language_zh_tw" translatable="false" >繁體中文</string>
+	<string name="setting_language_en_us" translatable="false">English</string>
+	<string name="setting_language_ko_kr" translatable="false">한국어</string>
+	<string name="setting_language_ja_jp" translatable="false">日本語</string>
+</resources>

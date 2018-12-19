@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="76dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_touxiang"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:circleimageview="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/iv_touxiang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/placehold_head"
+            circleimageview:civ_border_color="@android:color/white"
+            circleimageview:civ_border_overlay="false"
+            circleimageview:civ_border_width="0.5dp" />
+
+        <ImageView
+            android:id="@+id/iv_v"
+            android:layout_width="12.8dp"
+            android:layout_height="12.8dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="4dp"
+            android:visibility="invisible"
+            android:background="@mipmap/v" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13dp"
+        android:layout_toRightOf="@id/rl_touxiang"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@color/black_333"
+        android:textSize="14sp" />
+
+    <com.kcx.acg.views.view.MyStateButton
+        android:id="@+id/myStateButton"
+        android:layout_width="60dp"
+        android:layout_height="26dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_attention"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_pink_bg"
+                android:gravity="center"
+                android:text="@string/follow_string"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:gravity="center">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminateDrawable="@drawable/progress_drawable_white"
+                android:indeterminateOnly="true"
+                android:visibility="gone" />
+        </LinearLayout>
+    </com.kcx.acg.views.view.MyStateButton>
+
+
+    <View
+        style="@style/line_attentionAndFans"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

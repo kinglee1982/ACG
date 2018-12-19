@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.monke.immerselayout.ImmerseRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/head"
+        layout="@layout/layout_head" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/head"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="我的二维码" />
+
+
+    <ImageView
+        android:id="@+id/iv_QRcode"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/ic_launcher" />
+
+    <Button
+        android:id="@+id/btn_downloadQR"
+        android:layout_width="12dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/iv_QRcode"
+        android:background="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_below="@id/iv_QRcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="我的邀请码"
+        />
+    <TextView
+        android:id="@+id/tv_invitationCode"
+        android:layout_below="@id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/pink_ff8"
+        android:textSize="28sp"
+        android:text="6K35c8"
+        />
+
+    <TextView
+        android:layout_below="@id/tv_invitationCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="收益奖励机制：
+
+· 你邀请的用户（A1们）开通/续费VIP或充值A币时，获得10%的抽成；
+
+· A1们邀请的用户（A2们）开通/续费VIP或充值A币时，获得3%的抽成；
+
+· A2们邀请的用户（A3们）开通/续费VIP或充值A币时，获得1%的抽成；"/>
+
+    <Button
+        android:id="@+id/btn_share"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:background="@mipmap/ic_launcher"/>
+
+</com.monke.immerselayout.ImmerseRelativeLayout>

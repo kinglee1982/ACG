@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.monke.immerselayout.ImmerseLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_head" />
+
+    <EditText
+        android:id="@+id/et_oldPW"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:background="@color/transparent"
+        android:hint="@string/setting_input_oldPw"
+        android:textColor="@color/black_333"
+        android:textColorHint="@color/black_ccc"
+        android:textSize="14sp" />
+
+    <View style="@style/line_53dp" />
+
+    <EditText
+        android:id="@+id/et_newPW"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:background="@color/transparent"
+        android:hint="@string/setting_input_newPw"
+        android:textColor="@color/black_333"
+        android:textColorHint="@color/black_ccc"
+        android:textSize="14sp" />
+
+    <View style="@style/line_53dp" />
+
+    <EditText
+        android:id="@+id/et_newPWAgent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:background="@color/transparent"
+        android:hint="@string/setting_input_agentPw"
+        android:textColor="@color/black_333"
+        android:textColorHint="@color/black_ccc"
+        android:textSize="14sp" />
+
+    <View style="@style/line_53dp" />
+
+    <TextView
+        android:id="@+id/tv_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_invitationCode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/setting_etPw_hint"
+        android:textColor="@color/pink_hint"
+        android:textSize="14sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_complete"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_below="@id/tv_hint"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/shape_pink_bg_undefined_5dp"
+        android:text="@string/setting_etPw_complete"
+        android:textColor="@color/white"
+        android:enabled="false"
+        style="?android:attr/borderlessButtonStyle"
+        android:textSize="16sp" />
+
+</com.monke.immerselayout.ImmerseLinearLayout>

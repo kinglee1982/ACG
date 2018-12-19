@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#ff8eb3</color>
+    <color name="colorPrimaryDark">#fb7299</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--重要-->
+    <!--代表色，用于知识性文字及区域等。如选择状态下/可点击区域/icon-->
+    <color name="pink_ff8">#ff8eb3</color>
+    <!--用于较为重要的文字，如次标题-->
+    <color name="black_333">#333333</color>
+    <!--背景色，用于大面积背景衬托主体物，如卡片下的背景等-->
+    <color name="gray_f5">#f5f5f5</color>
+
+    <!--一般-->
+    <!--次要色，用于描述类文字-->
+    <color name="black_666">#666666</color>
+    <!--次要色，用于次要文字-->
+    <color name="black_999">#999999</color>
+    <!--次要色，用于点击状态下的按钮图标等-->
+    <color name="black_ccc">#cccccc</color>
+
+    <!--辅色-->
+    <color name="gray_eee">#eeeeee</color>
+    <!--辅助色，用于消息提示 标签-->
+    <color name="blue_6bb">#6bbffc</color>
+    <color name="pink_hint">#ff8eb3</color>
+
+    <!--颜色配置-->
+    <color name="red_text">#ff8eb3</color>
+    <color name="pink_20_ff8">#FBD8E3</color>
+    <color name="red_shape">#FFF20818</color>
+    <color name="gary_main_btn_bg">#EFF0F0</color>
+    <color name="gary_main_bg">#f1f1f1</color>
+    <color name="gary_search_bg">#F0F0F0</color>
+    <color name="orange_hot_bg">#FF6800</color>
+    <color name="sel_orange_hot_bg">#FF5800</color>
+    <color name="orange_integral_bg">#FF7500</color>
+    <color name="pink_select_bg">#FF5A62</color>
+    <color name="sel_pink_select_bg">#FF3A62</color>
+    <color name="red_icon">#F94F4F</color>
+    <color name="gary_novel_class">#999999</color>
+    <color name="bule_novel_type">#366379</color>
+    <color name="black_main_txt">#1a1a1a</color>
+    <color name="gray_main_hint">#CCCCCC</color>
+    <color name="gray_login_text">#666666</color>
+    <color name="gary_video_time_bg">#884a4e4c</color>
+    <color name="gary_main_more">#b2b2b2</color>
+    <color name="blue_main_verification">#3196f4</color>
+    <color name="gary_main_textcolor">#333333</color>
+    <color name="sel_main_color">#FF9917</color>
+    <color name="main_color_40">#40FFC617</color>
+    <color name="gray_tab">#808080</color>
+    <color name="home_text_color">#b3b3b3</color>
+    <color name="gray_line_color">#cccccc</color>
+    <color name="txt_gray_color">#cccccc</color>
+    <color name="banner_text_bg">#939393</color>
+    <color name="home_card_view_bg">#E6CACA</color>
+
+    <color name="white_95">#F2FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_e6">#e6ffffff</color>
+    <color name="transparent_99">#99000000</color>
+    <color name="transparent_50">#50000000</color>
+    <color name="transparent_80">#80000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_15">#151517</color>
+    <color name="red">#FF0000</color>
+    <color name="gray_33">#333333</color>
+    <color name="line_gray_bg">#e6e6e6</color>
+    <color name="main_color">#FFC617</color>
+    <color name="gray_main_more">#b2b2b2</color>
+    <color name="gray_66">#666666</color>
+    <color name="gray_999">#999999</color>
+    <color name="done_text_color_normal">#ff333333</color>
+    <color name="tv_text_novel_detail">#666666</color>
+    <color name="tv_color_gray_02">#949494</color>
+    <color name="aty_bg_black">#2b2b2b</color>
+    <color name="blue">#ff33b5e5</color>
+    <color name="blue_e6f">#E6F3FD</color>
+    <color name="blue_b1d">#B1D6F1</color>
+    <color name="blue_3a9">#3A93D4</color>
+    <color name="home_bg_color">#fee6ee</color>
+    <color name="pink_fd9">#fd94c3</color>
+    <color name="pink_fff">#FFF3F7</color>
+    <color name="pink_0c7">#F8B0C7</color>
+    <color name="darker_blue">#ff0099cc</color>
+    <color name="date_picker_text_normal">#ff999999</color>
+    <color name="calendar_header">#ff999999</color>
+    <color name="date_picker_view_animator">#fff2f2f2</color>
+
+    <color name="line_gary_bg">#e6e6e6</color>
+    <color name="view_gary_bg">#eeeeee</color>
+
+    <color name="ampm_text_color">#8c8c8c</color>
+    <color name="numbers_text_color">#8c8c8c</color>
+
+    <color name="transparent_black">#7F000000</color>
+    <color name="blue_e9">#e9f5fd</color>
+
+
+    <!--coupons-->
+    <color name="orange_color">#ffff9329</color>
+    <color name="bule_color">#ff29cdbf</color>
+    <color name="grey_color">#ffdddddd</color>
+    <color name="gray_fcd">#fcd2df</color>
+    <color name="gray_ff9">#ff999999</color>
+    <color name="gray_f9">#F9F9F9</color>
+    <color name="gray_A26">#A2674A</color>
+    <color name="gray_99f">#99ffffff</color>
+    <color name="black_800">#80000000</color>
+    <color name="black_75">#75000000</color>
+    <color name="black_60">#60000000</color>
+    <color name="red_ef25">#EF250F</color>
+    <color name="red_ee57">#EE574E</color>
+    <color name="red_b90">#B9071D</color>
+    <color name="yellow_ff3">#FFE4B1</color>
+    <color name="yellow_DE9">#FFFDE9</color>
+    <color name="yellow_ffe">#FFE574</color>
+
+
+    <color name="pink_btn_undefine">#ffc6d9</color>
+    <color name="vip_checked">#fff3f7</color>
+    <color name="img_place_holder_bg">#fafafa</color>
+    <color name="pink_ffe">#FFE6EE</color>
+    <color name="blue_cde">#CDEAFF</color>
+    <color name="gray_e3d">#E3DBDB</color>
+
+</resources>

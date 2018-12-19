@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/shape_gary_bg_5dp">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:text="请选择服务器地址"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb_debug"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="true"
+                android:textSize="15sp"
+                android:textColor="@color/black_666"
+                android:text="http://192.168.1.80:8899" />
+
+            <RadioButton
+                android:id="@+id/rb_dev1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/black_666"
+                android:text="http://192.168.1.36:8899" />
+
+            <RadioButton
+                android:id="@+id/rb_release"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/black_666"
+                android:text="https://api.nicoacg1.com" />
+
+            <RadioButton
+                android:id="@+id/rb_dev2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/black_666"
+                android:text="http://192.168.1.142:8899" />
+
+            <RadioButton
+                android:id="@+id/rb_youtube"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/black_666"
+                android:text="https://www.youtube.com" />
+
+            <RadioButton
+                android:id="@+id/rb_dev3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/black_666"
+                android:text="http://192.168.1.164:8899" />
+
+        </RadioGroup>
+
+        <View
+            android:id="@+id/line"
+            style="@style/line_horizontal_15dp"
+            android:layout_below="@+id/radioGroup"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:text="确 定"
+            android:textColor="@color/pink_hint"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kcx.acg.views.activity.MainActivity">
+
+    <com.monke.immerselayout.ImmerseLinearLayout
+        android:id="@+id/main_immerse_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/home_bg_color" />
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="#FFFFFF"
+            android:elevation="1dp"
+            android:translationZ="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:elevation="1dp"
+            android:gravity="center_vertical|bottom"
+            android:orientation="horizontal"
+            android:translationZ="5dp">
+
+            <ImageView
+                android:id="@+id/star_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:scaleType="center"
+                android:src="@drawable/star_in" />
+
+
+            <ImageView
+                android:id="@+id/card_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:src="@drawable/card_in" />
+
+
+            <ImageView
+                android:id="@+id/mine_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:src="@drawable/me_in" />
+
+
+        </LinearLayout>
+
+
+        <com.kcx.acg.views.view.NoteRadioGroup
+            android:id="@+id/rbg_home_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:elevation="1dp"
+            android:gravity="center_vertical|bottom"
+            android:orientation="horizontal"
+            android:paddingBottom="3dp"
+            android:translationZ="5dp"
+            android:visibility="gone">
+
+            <RadioButton
+                android:id="@+id/rb_find"
+                style="@style/content_rb_style"
+                android:drawableTop="@drawable/home_selector"
+                android:text="@string/browse_string" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingRight="10dp">
+
+                <RadioButton
+                    android:id="@+id/rb_home"
+                    style="@style/content_rb_style_in_fl"
+                    android:button="@null"
+                    android:drawableTop="@mipmap/ic_launcher"
+                    android:gravity="center"
+                    android:paddingLeft="0dp"
+                    android:text="首页" />
+
+                <ImageView
+                    android:id="@+id/iv_demand_red_point"
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="19dp"
+                    android:background="@drawable/shape_cricle_red_bg"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <RadioButton
+                android:id="@+id/rb_me"
+                style="@style/content_rb_style"
+                android:drawableTop="@drawable/home_selector"
+                android:text="我" />
+        </com.kcx.acg.views.view.NoteRadioGroup>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/main_guide_iv"
+        android:layout_width="match_parent"
+        android:background="@color/black_75"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/main_guide" />
+    </LinearLayout>
+
+</FrameLayout>

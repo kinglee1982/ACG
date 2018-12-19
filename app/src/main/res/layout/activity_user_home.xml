@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.monke.immerselayout.ImmerseRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_user_home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_f5">
+
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout
+            android:id="@+id/mRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_f5">
+
+            <com.kcx.acg.views.view.ObservableScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:scrollbars="none">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray_f5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/bg_user_home">
+
+                            <RelativeLayout
+                                android:id="@+id/rl_touxiang"
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="46dp">
+
+                                <de.hdodenhof.circleimageview.CircleImageView xmlns:circleimageview="http://schemas.android.com/apk/res-auto"
+                                    android:id="@+id/iv_touxiang"
+                                    android:layout_width="67dp"
+                                    android:layout_height="67dp"
+                                    android:src="@mipmap/placehold_head"
+                                    circleimageview:civ_border_color="#7f7f82"
+                                    circleimageview:civ_border_overlay="false"
+                                    circleimageview:civ_border_width="3dp" />
+
+                                <ImageView
+                                    android:id="@+id/iv_v"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_marginRight="5dp"
+                                    android:background="@mipmap/v"
+                                    android:visibility="invisible" />
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/tv_nickname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/rl_touxiang"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="15dp"
+                                android:textColor="@color/white"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/tv_fansNum"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/tv_nickname"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="10dp"
+                                android:text="@string/attentionAndFans_fans"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+
+                            <com.kcx.acg.views.view.MyStateButton
+                                android:id="@+id/myStateButton"
+                                android:layout_width="85dp"
+                                android:layout_height="35dp"
+                                android:layout_below="@id/tv_fansNum"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="15dp">
+
+                                <RelativeLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <Button
+                                        android:id="@+id/btn_attention"
+                                        style="?android:attr/borderlessButtonStyle"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/shape_pink_bg"
+                                        android:gravity="center"
+                                        android:text="@string/addAttention"
+                                        android:textColor="@color/white"
+                                        android:textSize="14sp" />
+                                </RelativeLayout>
+
+                                <LinearLayout
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:gravity="center">
+
+                                    <ProgressBar
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:indeterminateDrawable="@drawable/progress_drawable_white"
+                                        android:indeterminateOnly="true"
+                                        android:visibility="gone" />
+                                </LinearLayout>
+                            </com.kcx.acg.views.view.MyStateButton>
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <android.support.v7.widget.RecyclerView
+                                android:id="@+id/mRecyclerView"
+                                android:layout_width="match_parent"
+                                android:overScrollMode="never"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="10dp"
+                                android:scrollbars="none"
+                                android:visibility="visible" />
+                        </RelativeLayout>
+
+                        <include layout="@layout/layout_empty" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+            </com.kcx.acg.views.view.ObservableScrollView>
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_head"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:background="@mipmap/icon_back_white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_touxiang1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/rl_back"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:circleimageview="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/iv_touxiang1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_launcher"
+                android:visibility="invisible"
+                circleimageview:civ_border_color="@android:color/white"
+                circleimageview:civ_border_overlay="false"
+                circleimageview:civ_border_width="0.2dp" />
+
+            <ImageView
+                android:id="@+id/iv_v1"
+                android:layout_width="9.6dp"
+                android:layout_height="9.6dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:visibility="invisible"
+                android:layout_marginRight="3dp"
+                android:background="@mipmap/v"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/rl_touxiang1"
+            android:singleLine="true"
+            android:textColor="@color/black_333"
+            android:textSize="14sp"
+            android:visibility="invisible" />
+
+        <RelativeLayout
+            android:id="@+id/rl_share"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:id="@+id/iv_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/icon_share_white"
+                android:gravity="center_vertical"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <com.kcx.acg.views.view.MyStateButton
+            android:id="@+id/myStateButton1"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_attention1"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_attention_pink_bg"
+                    android:gravity="center"
+                    android:text="@string/addAttention"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:gravity="center">
+
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:indeterminateDrawable="@drawable/progress_drawable_white"
+                    android:indeterminateOnly="true"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </com.kcx.acg.views.view.MyStateButton>
+    </RelativeLayout>
+
+    <com.kcx.acg.views.view.LoadingErrorView
+        android:id="@+id/loadingErrorView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+
+</com.monke.immerselayout.ImmerseRelativeLayout>
